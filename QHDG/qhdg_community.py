@@ -79,7 +79,7 @@ try:
             print("parse json error...")
         try:
             pipeline = MongoDBPipeline()
-            pipeline.insert_data("QGDG", obj, db="nCoV")
+            pipeline.insert_data("QHDG", obj, db="nCoV")
             print("insert mongo ok.")
         except:
             print("insert mongo error...")
