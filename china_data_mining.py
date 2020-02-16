@@ -70,11 +70,13 @@ data = json.loads(res_data['data'])
 lastUpdateTime = data['lastUpdateTime']
 print('数据服务更新时间 ' + str(lastUpdateTime))
 
+print('采集当日省市数据...')
+
 areaTree = data['areaTree']
 
 # 创建空 dataframe
-col_names = ['_id', '省', '市', '确认', '疑似', '死亡', '治愈']
-col_names_p = ['_id', '省','确认', '疑似', '死亡', '治愈']
+col_names = ['_id', '省', '市', '新增确诊','累计确诊', '死亡', '治愈','死亡率','治愈率']
+col_names_p = ['_id', '省', '新增确诊', '累计确诊', '死亡', '治愈', '死亡率', '治愈率']
 my_df = pd.DataFrame(columns=col_names)
 my_df_p = pd.DataFrame(columns=col_names_p)
 
@@ -84,31 +86,39 @@ for item in areaTree:
     if item['name'] == '中国':
         item_ps = item['children']
         for item_p in item_ps:
+            pi += 1
             province = item_p['name']
+            # print(province)
+            # print(item_p['total'])
             confirm = item_p['total']['confirm']
             death = item_p['total']['dead']
-            suspect = item_p['total']['suspect']
             heal = item_p['total']['heal']
-            data_dict = {'_id': i, '省': province, '确认': confirm,
-                         '疑似': suspect, '死亡': death, '治愈': heal}
+            new_confirm = item_p['today']['confirm']
+            deadRate =item_p['total']['deadRate']
+            healRate =item_p['total']['healRate']
+            data_dict = {'_id': pi, '省': province,'新增确诊':new_confirm,'累计确诊': confirm,
+                         '死亡': death, '治愈': heal, '死亡率': deadRate, '治愈率': healRate}
             my_df_p.loc[len(my_df_p)] = data_dict
-            pi += 1
             # print(province)
             item_cs = item_p['children']
             for item_c in item_cs:
                 prefecture = item_c['name']
                 # print('  ' + prefecture)
                 # print('  ' + str(item_c['total']))
+                new_confirm = item_c['today']['confirm']
                 confirm = item_c['total']['confirm']
-                suspect = item_c['total']['suspect']
+                # suspect = item_c['total']['suspect']
                 death = item_c['total']['dead']
                 heal = item_c['total']['heal']
+                deadRate = item_c['total']['deadRate']
+                healRate = item_c['total']['healRate']
 
                 i += 1
                 # 向df添加数据
                 # data_dict = {'_id': i, '省': province, '市':prefecture, '确认': confirm, '死亡': death, '治愈': heal}
-                data_dict = {'_id': i, '省': province, '市':prefecture, '确认': confirm,
-                             '疑似': suspect, '死亡': death, '治愈': heal}
+                data_dict = {'_id': i, '省': province, '市': prefecture, '新增确诊': new_confirm,
+                             '累计确诊': confirm, '死亡': death, '治愈': heal, '死亡率': deadRate,
+                             '治愈率': healRate}
                 my_df.loc[len(my_df)] = data_dict
                 # my_df.append([data_dict], ignore_index=True)
 
@@ -116,6 +126,32 @@ save_name = "./data/nCoV_China_" + str(lastUpdateTime).split()[0] + "_col_" + ti
 # 保存数据
 my_df.to_csv(save_name + ".csv", encoding='utf-8', header=True, index=False)
 my_df_p.to_csv(save_name + "_p.csv", encoding='utf-8', header=True, index=False)
+
+print('采集中国历史数据...')
+china_day_list = data['chinaDayList']
+col_names_cd =  ['_id', '日期','累计确诊','疑似','死亡', '治愈', '现有确诊', '现有重症','死亡率','治愈率']
+
+my_df_cd = pd.DataFrame(columns=col_names_cd)
+
+hi = 0
+for day_item in china_day_list:
+    hi += 1
+    date = day_item['date'] + '.2020'
+    confirm = day_item['confirm']
+    suspect = day_item['suspect']
+    dead = day_item['dead']
+    heal = day_item['heal']
+    nowConfirm = day_item['nowConfirm']
+    nowSevere = day_item['nowSevere']
+    deadRate = day_item['deadRate']
+    healRate = day_item['healRate']
+
+    # 向df添加数据
+    data_dict = {'_id': hi, '日期': date,'累计确诊': confirm,'疑似': suspect,'死亡': dead, '治愈': heal, '现有确诊': nowConfirm,
+                 '现有重症':nowSevere,'死亡率': deadRate,'治愈率':healRate}
+    my_df_cd.loc[len(my_df_cd)] = data_dict
+
+my_df_cd.to_csv(save_name + "_history.csv", encoding='utf-8', header=True, index=False)
 print(save_name + " saved.")
 
 pipeline = MongoDBPipeline()
