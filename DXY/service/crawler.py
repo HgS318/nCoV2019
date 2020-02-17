@@ -160,6 +160,15 @@ class Crawler:
             country.pop('provinceShortName')
             # Rename the key continents to continentName
             country['continentName'] = country.pop('continents')
+            # Ding Xiang Yuan have a large number of duplicates,
+            # values are all the same, but the modifyTime are different.
+            # I suppose the modifyTime is modification time for all documents, other than for only this document.
+            # So this field will be popped out.
+            country.pop('modifyTime')
+            # createTime is also different even if the values are same.
+            # Originally, the createTime represent the first diagnosis of the virus in this area,
+            # but it seems different for abroad information.
+            country.pop('createTime')
 
             country['comment'] = country['comment'].replace(' ', '')
 
