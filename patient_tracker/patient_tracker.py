@@ -100,9 +100,12 @@ def get_save_city_tracks(city, mongo, tb, df, size=100):
             try:
                 df.loc[len(df)] = track
             except:
-                print(track)
+                print("add to csv DataFrame error: " + str(track))
             try:
-                track['_id'] = track['province'] + "-" + track['city'] + '-' + str(track['index'])
+                if 'id' in track:
+                    track['_id'] = track['province'] + "-" + track['city'] + '-' + str(track['id'])
+                else:
+                    track['_id'] = track['province'] + "-" + track['city'] + '-' + str(track['index'])
             except:
                 if "id" in track:
                     track['_id'] = track["id"]
@@ -136,7 +139,8 @@ for city in cities:
         print("error in pre_processing:" + str(city))
 # 各市疫情总体信息存储在MongoDb中
 pipeline.insert_data("cities", {"_id": time_str, "cities": cities}, db="nCoV_pTrack")
-df = pd.DataFrame(columns=['id', 'province', 'city', 'index', 'base_info', 'detail_info'])
+df = pd.DataFrame(columns=['id', 'province', 'city', 'index', 'source',
+                           'base_info', 'detail_info'])
 # 开始抓取每个市的患者轨迹数据
 for city in cities:
     get_save_city_tracks(city, pipeline, tb_name, df, size=100)
