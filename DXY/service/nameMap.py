@@ -252,7 +252,8 @@ city_name_map = {
             '绍兴': 'Shaoxing',
             '舟山': 'Zhoushan',
             '衢州': 'Quzhou',
-            '金华': 'Jinhua'
+            '金华': 'Jinhua',
+            '省十里丰监狱': 'ShilifengJianyu'
         }
     },
     '内蒙古': {
@@ -459,7 +460,8 @@ city_name_map = {
             '黄石': 'Huangshi',
             '恩施州': 'Enshi Tujia and Miao Autonomous Prefecture',
             '潜江': 'Qianjiang',
-            '神农架林区': 'Shennongjia'
+            '神农架林区': 'Shennongjia',
+            '监狱系统': 'HubeiJianyu'
         }
     },
     '江苏': {
