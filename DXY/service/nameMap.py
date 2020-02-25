@@ -618,6 +618,7 @@ city_name_map = {
             '彭水县': 'Pengshui Miao and Tujia Autonomous County',
             '武隆区': 'Wulong District',
             '酉阳县': 'Youyang Tujia and Miao Autonomous County',
+            '酉阳': 'Youyang Tujia and Miao Autonomous County',
             '万盛经开区': 'Wansheng District',
             '梁平区': 'Liangping District',
             '黔江区': 'Qianjiang Tujia and Miao Autonomous County',
