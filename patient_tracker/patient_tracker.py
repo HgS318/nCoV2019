@@ -26,7 +26,7 @@ class MongoDBPipeline(object):
         tb = self.db[tb_name]
         if db is not None:
             tb = self.clinet[db][tb_name]
-        tb.insert(new_dict)
+        tb.insert_one(new_dict)
 
     def insert_many(self, tb_name, new_data, db=None):
         tb = self.db[tb_name]

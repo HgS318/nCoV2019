@@ -17,7 +17,7 @@ class MongoDBPipeline(object):
         tb = self.db[tb_name]
         if db is not None:
             tb = self.clinet[db][tb_name]
-        tb.insert(new_dict)
+        tb.insert_one(new_dict)
 
     def search(self, tb_name, search_query, fields=None, db=None):
         tb = self.db[tb_name]
