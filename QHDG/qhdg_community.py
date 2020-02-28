@@ -53,6 +53,11 @@ class MongoDBPipeline(object):
 
 # com_js_url = 'https://ncov.deepeye.tech/javascripts/community_query.js'
 com_js_url = 'https://ncov.deepeye.tech/javascripts/community.js'
+# 伪装请求头
+headers = {
+    'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36',
+    'referer': 'https://news.qq.com/zt2020/page/feiyan.htm?from=timeline&isappinstalled=0'
+}
 
 
 def get_json_obj(res_text, time_str=None):
@@ -78,7 +83,7 @@ def json2csv(obj, csv_path):
             for area_name in obj["community"][province_name][city_name]:
                 for community in obj["community"][province_name][city_name][area_name]:
                     data_list.append(community)
-    df = pd.DataFrame(columns=['id', 'name', 'lng', 'lat', 'address', 'full_address', 'count'])
+    df = pd.DataFrame(columns=['id', 'name', 'lng', 'lat', 'address', 'city', 'province', 'count', 'full_address'])
     i = 0
     for community_item in data_list:
         if 'lng' in community_item and 'lat' in community_item:
@@ -87,6 +92,8 @@ def json2csv(obj, csv_path):
                 'name': community_item["community"],
                 'lng': community_item['lng'],
                 'lat': community_item['lat'],
+                'city': community_item['city'],
+                'province': community_item['province'],
                 'address': community_item['show_address'],
                 'full_address': community_item['full_address']
             }
@@ -119,37 +126,36 @@ def convert_csvs():
             print(file_name + " converted...")
 
 
-# convert_csvs()
-
-# 伪装请求头
-headers = {
-    'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36',
-    'referer': 'https://news.qq.com/zt2020/page/feiyan.htm?from=timeline&isappinstalled=0'
-}
-try:
-    requests.adapters.DEFAULT_RETRIES = 5
-    res = requests.get(com_js_url, headers=headers, timeout=60000)
-    res_text = res.text
-    if len(res_text) > 50:
-        time_str = time.strftime("%m%d-%H%M", time.localtime())
-        save_name = "./qh_data/community_" + time_str + ".js"
-        with open(save_name, 'w', encoding='utf-8') as file:
-            file.write(res_text)
-        print("save file ok: " + save_name)
-        obj = get_json_obj(res_text, time_str)
-        if obj is not None:
-            try:
-                pipeline = MongoDBPipeline()
-                pipeline.insert_data("QHDG", obj, db="nCoV")
-                print("insert mongo ok.")
-            except:
-                print("insert mongo error...")
-            try:
-                json2csv(obj, save_name.replace(".js", ".csv"))
-                print("save csv ok: " + save_name.replace(".js", ".csv"))
-            except Exception as csv_exp:
-                print("save csv error...")
-    else:
+def fetch_commubities():
+    try:
+        requests.adapters.DEFAULT_RETRIES = 5
+        res = requests.get(com_js_url, headers=headers, timeout=60000)
+        res_text = res.text
+        if len(res_text) > 50:
+            time_str = time.strftime("%m%d-%H%M", time.localtime())
+            save_name = "./qh_data/community_" + time_str + ".js"
+            with open(save_name, 'w', encoding='utf-8') as file:
+                file.write(res_text)
+            print("save file ok: " + save_name)
+            obj = get_json_obj(res_text, time_str)
+            if obj is not None:
+                try:
+                    pipeline = MongoDBPipeline()
+                    pipeline.insert_data("QHDG", obj, db="nCoV")
+                    print("insert mongo ok.")
+                except:
+                    print("insert mongo error...")
+                try:
+                    json2csv(obj, save_name.replace(".js", ".csv"))
+                    print("save csv ok: " + save_name.replace(".js", ".csv"))
+                except Exception as csv_exp:
+                    print("save csv error...")
+        else:
+            print("get data error...")
+    except Exception as exp:
         print("get data error...")
-except Exception as exp:
-    print("get data error...")
+
+
+if __name__ == '__main__':
+    fetch_commubities()
+    # convert_csvs()
