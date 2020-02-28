@@ -3,6 +3,8 @@ import requests
 import pymongo
 import time
 import json
+import os
+import pandas as pd
 
 
 class MongoDBPipeline(object):
@@ -52,6 +54,73 @@ class MongoDBPipeline(object):
 # com_js_url = 'https://ncov.deepeye.tech/javascripts/community_query.js'
 com_js_url = 'https://ncov.deepeye.tech/javascripts/community.js'
 
+
+def get_json_obj(res_text, time_str=None):
+    json_text = res_text.strip().strip(";").replace('\'', '\"')
+    equal_index = json_text.find('=')
+    if -1 < equal_index < 30:
+        json_text = json_text[equal_index + 1:]
+        json_text = json_text.strip()
+    try:
+        obj = json.loads(json_text)
+        if time_str is not None:
+            obj['_id'] = time_str
+        return obj
+    except Exception as json_err:
+        print("parse json error...")
+        return None
+
+
+def json2csv(obj, csv_path):
+    data_list = []
+    for province_name in obj["community"]:
+        for city_name in obj["community"][province_name]:
+            for area_name in obj["community"][province_name][city_name]:
+                for community in obj["community"][province_name][city_name][area_name]:
+                    data_list.append(community)
+    df = pd.DataFrame(columns=['id', 'name', 'lng', 'lat', 'address', 'full_address', 'count'])
+    i = 0
+    for community_item in data_list:
+        if 'lng' in community_item and 'lat' in community_item:
+            community_obj = {
+                # 'id': community_item["id"],
+                'name': community_item["community"],
+                'lng': community_item['lng'],
+                'lat': community_item['lat'],
+                'address': community_item['show_address'],
+                'full_address': community_item['full_address']
+            }
+            if 'id' in community_item:
+                community_obj['id'] = community_item["id"]
+            else:
+                community_obj['id'] = i
+            community_obj['count'] = 1
+            try:
+                if 'cnt_sum_certain' in community_item and int(community_item['cnt_sum_certain']) > 0:
+                    community_obj['count'] = community_item['cnt_sum_certain']
+            except:
+                community_obj['count'] = 1
+            df.loc[i] = community_obj
+            i += 1
+            if i % 500 == 0:
+                print(str(i) + " data processed...")
+    df.to_csv(csv_path, encoding='utf-8', header=True, index=False)
+
+
+def convert_csvs():
+    path = './qh_data/'
+    files = os.listdir(path)
+    for file_name in files:
+        if ".js" in file_name:
+            with open(path + file_name, 'r', encoding='utf-8') as file:
+                js_txt = file.read()
+            obj = get_json_obj(js_txt)
+            json2csv(obj, path + file_name.replace(".js", ".csv"))
+            print(file_name + " converted...")
+
+
+# convert_csvs()
+
 # 伪装请求头
 headers = {
     'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36',
@@ -67,23 +136,20 @@ try:
         with open(save_name, 'w', encoding='utf-8') as file:
             file.write(res_text)
         print("save file ok: " + save_name)
-        json_text = res_text.strip().strip(";").replace('\'', '\"')
-        equal_index = json_text.find('=')
-        if -1 < equal_index < 30:
-            json_text = json_text[equal_index + 1: ]
-            json_text = json_text.strip()
-        try:
-            obj = json.loads(json_text)
-            obj['_id'] = time_str
-        except:
-            print("parse json error...")
-        try:
-            pipeline = MongoDBPipeline()
-            pipeline.insert_data("QHDG", obj, db="nCoV")
-            print("insert mongo ok.")
-        except:
-            print("insert mongo error...")
+        obj = get_json_obj(res_text, time_str)
+        if obj is not None:
+            try:
+                pipeline = MongoDBPipeline()
+                pipeline.insert_data("QHDG", obj, db="nCoV")
+                print("insert mongo ok.")
+            except:
+                print("insert mongo error...")
+            try:
+                json2csv(obj, save_name.replace(".js", ".csv"))
+                print("save csv ok: " + save_name.replace(".js", ".csv"))
+            except Exception as csv_exp:
+                print("save csv error...")
     else:
         print("get data error...")
-except:
+except Exception as exp:
     print("get data error...")
