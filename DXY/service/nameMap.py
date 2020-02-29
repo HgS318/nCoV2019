@@ -253,7 +253,7 @@ city_name_map = {
             '舟山': 'Zhoushan',
             '衢州': 'Quzhou',
             '金华': 'Jinhua',
-            '省十里丰监狱': 'ShilifengJianyu'
+            '省十里丰监狱': 'Shilifeng Prison'
         }
     },
     '内蒙古': {
@@ -460,8 +460,7 @@ city_name_map = {
             '黄石': 'Huangshi',
             '恩施州': 'Enshi Tujia and Miao Autonomous Prefecture',
             '潜江': 'Qianjiang',
-            '神农架林区': 'Shennongjia',
-            '监狱系统': 'HubeiJianyu'
+            '神农架林区': 'Shennongjia'
         }
     },
     '江苏': {
@@ -618,7 +617,6 @@ city_name_map = {
             '彭水县': 'Pengshui Miao and Tujia Autonomous County',
             '武隆区': 'Wulong District',
             '酉阳县': 'Youyang Tujia and Miao Autonomous County',
-            '酉阳': 'Youyang Tujia and Miao Autonomous County',
             '万盛经开区': 'Wansheng District',
             '梁平区': 'Liangping District',
             '黔江区': 'Qianjiang Tujia and Miao Autonomous County',
