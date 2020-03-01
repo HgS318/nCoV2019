@@ -18,13 +18,17 @@ import requests
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(message)s')
 logger = logging.getLogger(__name__)
 
+# headers = {
+#     'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36'
+# }
 headers = {
-    'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36'
+    'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36',
+    'referer': 'https://news.qq.com/zt2020/page/feiyan.htm?from=timeline&isappinstalled=0'
 }
-
 
 class Crawler:
     def __init__(self):
+        requests.adapters.DEFAULT_RETRIES = 5
         self.session = requests.session()
         self.session.headers.update(headers)
         self.db = DB()
@@ -32,14 +36,17 @@ class Crawler:
 
     def run(self):
         while True:
-            self.crawler()
-            time.sleep(600)
+            try:
+                self.crawler()
+            except Exception as crawl_exp:
+                print("crawl error...")
+            time.sleep(1800)
 
     def crawler(self):
         while True:
             self.crawl_timestamp = int(datetime.datetime.timestamp(datetime.datetime.now()) * 1000)
             try:
-                r = self.session.get(url='https://ncov.dxy.cn/ncovh5/view/pneumonia')
+                r = self.session.get(url='https://ncov.dxy.cn/ncovh5/view/pneumonia', timeout=60000)
             except requests.exceptions.ChunkedEncodingError:
                 continue
             soup = BeautifulSoup(r.content, 'lxml')
