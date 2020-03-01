@@ -417,7 +417,8 @@ city_name_map = {
             '怀柔区': 'Huairou District',
             '密云区': 'Miyun District',
             '门头沟区': 'Mentougou District',
-            '延庆区': 'Yanqing District'
+            '延庆区': 'Yanqing District',
+            '境外输入人员': 'Beijing abroad'
         }
     },
     '广西': {
