@@ -253,7 +253,8 @@ city_name_map = {
             '舟山': 'Zhoushan',
             '衢州': 'Quzhou',
             '金华': 'Jinhua',
-            '省十里丰监狱': 'Shilifeng Prison'
+            '省十里丰监狱': 'Shilifeng Prison',
+            '境外输入人员': 'Zhejiang abroad'
         }
     },
     '内蒙古': {
