@@ -104,7 +104,8 @@ city_name_map = {
             '黄浦区': 'Huangpu District',
             '崇明区': 'Chongming District',
             '青浦区': 'Qingpu District',
-            '金山区': 'Jinshan District'
+            '金山区': 'Jinshan District',
+            '境外输入人员': 'Shanghai abroad'
         }
     },
     '江西': {
