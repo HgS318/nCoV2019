@@ -397,7 +397,8 @@ city_name_map = {
             '酒泉': 'Jiuquan',
             '金昌': 'Jinchang',
             '陇南': 'Longnan',
-            '临夏': 'Linxia'
+            '临夏': 'Linxia',
+            '境外输入人员': 'Gansu abroad'
         }
     },
     '北京': {
