@@ -254,8 +254,7 @@ city_name_map = {
             '舟山': 'Zhoushan',
             '衢州': 'Quzhou',
             '金华': 'Jinhua',
-            '省十里丰监狱': 'Shilifeng Prison',
-            '境外输入人员': 'Zhejiang abroad'
+            '省十里丰监狱': 'Shilifeng Prison'
         }
     },
     '内蒙古': {
@@ -836,7 +835,8 @@ country_name_map = {
     '乌干达': 'Uganda',
     '乌克兰': 'Ukraine',
     '阿拉伯联合酋长国': 'United Arab Emirates',
-    '英国': 'United Kiongdom',
+    '阿联酋': 'United Arab Emirates',
+    '英国': 'United Kingdom',
     '美国': 'United States of America',
     '乌拉圭': 'Uruguay',
     '乌兹别克斯坦': 'Uzbekistan',
@@ -846,7 +846,11 @@ country_name_map = {
     '南斯拉夫': 'Yugoslavia',
     '津巴布韦': 'Zimbabwe',
     '扎伊尔': 'Zaire',
-    '赞比亚': 'Zambia'
+    '赞比亚': 'Zambia',
+    '克罗地亚': 'Croatia',
+    '北马其顿': 'North Macedonia',
+    '安道尔': 'Andorra',
+    '多米尼加': 'Dominican Republic'
 }
 
 continent_name_map = {
