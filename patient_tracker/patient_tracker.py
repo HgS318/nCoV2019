@@ -121,28 +121,35 @@ def get_save_city_tracks(city, mongo, tb, df, size=100):
             break
 
 
-pipeline = MongoDBPipeline()
-time_str = time.strftime("%m%d-%H%M", time.localtime())
-tb_name = time_str
-csv_path = "tracks_" + time_str + ".csv"
+def get_one_tracker_set():
+    pipeline = MongoDBPipeline()
+    time_str = time.strftime("%m%d-%H%M", time.localtime())
+    tb_name = time_str
+    csv_path = "tracks_" + time_str + ".csv"
 
-pre_url = "https://iflow-api.uc.cn/feiyan/track?page=0&size=10&city=1&citycode=340800"
-requests.adapters.DEFAULT_RETRIES = 5
-pre_res = requests.get(pre_url, verify=False, headers=headers, timeout=60000)
-pre_json = pre_res.json()
-cities = pre_json['data']['cities']
-for city in cities:
-    try:
-        _id = city['one_level_area'] + "_" + city['two_level_area']
-        city['_id'] = _id
-    except:
-        print("error in pre_processing:" + str(city))
-# 各市疫情总体信息存储在MongoDb中
-pipeline.insert_data("cities", {"_id": time_str, "cities": cities}, db="nCoV_pTrack")
-df = pd.DataFrame(columns=['id', 'province', 'city', 'index', 'source',
-                           'base_info', 'detail_info'])
-# 开始抓取每个市的患者轨迹数据
-for city in cities:
-    get_save_city_tracks(city, pipeline, tb_name, df, size=100)
+    pre_url = "https://iflow-api.uc.cn/feiyan/track?page=0&size=10&city=1&citycode=340800"
+    requests.adapters.DEFAULT_RETRIES = 5
+    pre_res = requests.get(pre_url, verify=False, headers=headers, timeout=60000)
+    pre_json = pre_res.json()
+    cities = pre_json['data']['cities']
+    for city in cities:
+        try:
+            _id = city['one_level_area'] + "_" + city['two_level_area']
+            city['_id'] = _id
+        except:
+            print("error in pre_processing:" + str(city))
+    # 各市疫情总体信息存储在MongoDb中
+    pipeline.insert_data("cities", {"_id": time_str, "cities": cities}, db="nCoV_pTrack")
+    df = pd.DataFrame(columns=['id', 'province', 'city', 'index', 'source',
+                               'base_info', 'detail_info'])
+    # 开始抓取每个市的患者轨迹数据
+    for city in cities:
+        get_save_city_tracks(city, pipeline, tb_name, df, size=100)
 
-df.to_csv(csv_path, encoding='utf-8', header=True, index=False)
+    df.to_csv(csv_path, encoding='utf-8', header=True, index=False)
+
+
+if __name__ == '__main__':
+    for i in range(365):
+        get_one_tracker_set()
+        time.sleep(86000)
