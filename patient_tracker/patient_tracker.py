@@ -147,6 +147,7 @@ def get_one_tracker_set():
         get_save_city_tracks(city, pipeline, tb_name, df, size=100)
 
     df.to_csv(csv_path, encoding='utf-8', header=True, index=False)
+    print("save trakers ok.")
 
 
 if __name__ == '__main__':
