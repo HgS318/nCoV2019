@@ -6,10 +6,12 @@
 """
 from bs4 import BeautifulSoup
 from db import DB
+from userAgent import user_agent_list
 from nameMap import country_type_map, city_name_map, country_name_map, continent_name_map
 import re
 import json
 import time
+import random
 import logging
 import datetime
 import requests
@@ -18,19 +20,10 @@ import requests
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(message)s')
 logger = logging.getLogger(__name__)
 
-# headers = {
-#     'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36'
-# }
-headers = {
-    'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36',
-    'referer': 'https://news.qq.com/zt2020/page/feiyan.htm?from=timeline&isappinstalled=0'
-}
-
 
 class Crawler:
     def __init__(self):
         self.session = requests.session()
-        self.session.headers.update(headers)
         self.db = DB()
         self.crawl_timestamp = int()
 
@@ -41,13 +34,17 @@ class Crawler:
 
     def crawler(self):
         while True:
+            self.session.headers.update(
+                {
+                    'user-agent': random.choice(user_agent_list)
+                }
+            )
             self.crawl_timestamp = int(datetime.datetime.timestamp(datetime.datetime.now()) * 1000)
             try:
                 r = self.session.get(url='https://ncov.dxy.cn/ncovh5/view/pneumonia')
             except requests.exceptions.ChunkedEncodingError:
                 continue
             soup = BeautifulSoup(r.content, 'lxml')
-
 
             overall_information = re.search(r'(\{"id".*\}\})\}', str(soup.find('script', attrs={'id': 'getStatisticsService'})))
             if overall_information:
