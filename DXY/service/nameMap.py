@@ -170,7 +170,8 @@ city_name_map = {
             '聊城': 'Liaocheng',
             '莱芜': 'Laiwu',
             '菏泽': 'Heze',
-            '青岛': 'Qingdao'
+            '青岛': 'Qingdao',
+            '境外输入人员': 'Shandong abroad'
         }
     },
     '宁夏': {
