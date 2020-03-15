@@ -81,7 +81,8 @@ city_name_map = {
             '郑州': 'Zhengzhou',
             '驻马店': 'Zhumadian',
             '鹤壁': 'Hebi',
-            '济源': 'Jiyuan'
+            '济源': 'Jiyuan',
+            '境外输入人员': 'Henan abroad'
         }
     },
     '上海': {
