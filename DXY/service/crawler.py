@@ -49,7 +49,7 @@ class Crawler:
             if overall_information:
                 self.overall_parser(overall_information=overall_information)
 
-            province_information = re.search(r'\[(.*?)\]', str(soup.find('script', attrs={'id': 'getListByCountryTypeService1'})))
+            province_information = re.search(r'\[(.*?)\]', str(soup.find('script', attrs={'id': 'getListByCountryTypeService1undefined'})))
             if province_information:
                 self.province_parser(province_information=province_information)
 
@@ -57,11 +57,11 @@ class Crawler:
             if area_information:
                 self.area_parser(area_information=area_information)
 
-            abroad_information = re.search(r'\[(.*)\]', str(soup.find('script', attrs={'id': 'getListByCountryTypeService2'})))
+            abroad_information = re.search(r'\[(.*)\]', str(soup.find('script', attrs={'id': 'getListByCountryTypeService2undefined'})))
             if abroad_information:
                 self.abroad_parser(abroad_information=abroad_information)
 
-            news = re.search(r'\[(.*?)\]', str(soup.find('script', attrs={'id': 'getTimelineService'})))
+            news = re.search(r'\[(.*?)\]', str(soup.find('script', attrs={'id': 'getTimelineServiceundefined'})))
             if news:
                 self.news_parser(news=news)
 
