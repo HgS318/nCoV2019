@@ -149,7 +149,8 @@ city_name_map = {
             '肇庆': 'Zhaoqing',
             '茂名': 'Maoming',
             '阳江': 'Yangjiang',
-            '韶关': 'Shaoguan'
+            '韶关': 'Shaoguan',
+            '境外输入人员': 'Guangdong abroad'
         }
     },
     '山东': {
@@ -257,7 +258,8 @@ city_name_map = {
             '舟山': 'Zhoushan',
             '衢州': 'Quzhou',
             '金华': 'Jinhua',
-            '省十里丰监狱': 'Shilifeng Prison'
+            '省十里丰监狱': 'Shilifeng Prison',
+            '境外输入人员': 'Zhejiang abroad'
         }
     },
     '内蒙古': {
@@ -442,7 +444,8 @@ city_name_map = {
             '贵港': 'Guigang',
             '贺州': 'Hezhou',
             '钦州': 'Qinzhou',
-            '防城港': 'Fangchenggang'
+            '防城港': 'Fangchenggang',
+            '境外输入人员': 'Guangxi abroad'
         }
     },
     '湖北': {
@@ -517,7 +520,8 @@ city_name_map = {
             '西安': "Xi'an",
             '铜川': 'Tongchuan',
             '杨凌': 'Yangling District in Xianyang',
-            '韩城': 'Hancheng'
+            '韩城': 'Hancheng',
+            '境外输入人员': 'Shanxi abroad'
         }
     },
     '天津': {
