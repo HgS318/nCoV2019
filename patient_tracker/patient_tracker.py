@@ -141,7 +141,7 @@ def get_one_tracker_set():
     # 各市疫情总体信息存储在MongoDb中
     pipeline.insert_data("cities", {"_id": time_str, "cities": cities}, db="nCoV_pTrack")
     df = pd.DataFrame(columns=['id', 'province', 'city', 'index', 'source',
-                               'base_info', 'detail_info'])
+                               'base_info', 'detail_info', 'is_from_outside'])
     # 开始抓取每个市的患者轨迹数据
     for city in cities:
         get_save_city_tracks(city, pipeline, tb_name, df, size=100)
