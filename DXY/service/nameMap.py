@@ -24,7 +24,8 @@ city_name_map = {
             '鸡西': 'Jixi',
             '鹤岗': 'Hegang',
             '黑河': 'Heihe',
-            '齐齐哈尔': 'Qiqihar'
+            '齐齐哈尔': 'Qiqihar',
+            '境外输入人员': 'Heilongjiang abroad'
         }
     },
     '海南': {
@@ -58,7 +59,8 @@ city_name_map = {
             '漳州': 'Zhangzhou',
             '福州': 'Fuzhou',
             '莆田': 'Putian',
-            '龙岩': 'Longyan'
+            '龙岩': 'Longyan',
+            '境外输入人员': 'Fujian abroad'
         }
     },
     '河南': {
@@ -241,7 +243,8 @@ city_name_map = {
             '铁岭': 'Tieling',
             '锦州': 'Jinzhou',
             '阜新': 'Fuxin',
-            '鞍山': 'Anshan'
+            '鞍山': 'Anshan',
+            '境外输入人员': 'Liaoning abroad'
         }
     },
     '浙江': {
@@ -543,6 +546,7 @@ city_name_map = {
             '武清区': 'Wuqing District',
             '津南区': 'Jinnan District',
             '红桥区': 'Hongqiao District',
+            '境外输入人员': 'Tianjin abroad'
         }
     },
     '湖南': {
