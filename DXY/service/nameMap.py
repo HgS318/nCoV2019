@@ -635,7 +635,8 @@ city_name_map = {
             '梁平区': 'Liangping District',
             '黔江区': 'Qianjiang Tujia and Miao Autonomous County',
             '城口县': 'Chengkou County',
-            '秀山县': 'Xiushan Tujia and Miao Autonomous County'
+            '秀山县': 'Xiushan Tujia and Miao Autonomous County',
+            '境外输入人员': 'Chongqing abroad'
         }
     },
     '香港': {
