@@ -125,7 +125,8 @@ city_name_map = {
             '萍乡': 'Pingxiang',
             '赣州': 'Ganzhou',
             '鹰潭': 'Yingtan',
-            '赣江新区': 'Ganjiang New District'
+            '赣江新区': 'Ganjiang New District',
+            '境外输入人员': 'Jiangxi abroad'
         }
     },
     '广东': {
@@ -371,7 +372,8 @@ city_name_map = {
             '秦皇岛': 'Qinhuangdao',
             '衡水': 'Hengshui',
             '邢台': 'Xingtai',
-            '邯郸': 'Handan'
+            '邯郸': 'Handan',
+            '境外输入人员': 'Heibei abroad'
         }
     },
     '贵州': {
@@ -490,7 +492,8 @@ city_name_map = {
             '盐城': 'Yancheng',
             '苏州': 'Suzhou',
             '连云港': 'Lianyungang',
-            '镇江': 'Zhenjiang'
+            '镇江': 'Zhenjiang',
+            '境外输入人员': 'Jiangsu abroad'
         }
     },
     '吉林': {
