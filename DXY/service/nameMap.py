@@ -45,7 +45,8 @@ city_name_map = {
             '东方': 'Dongfang',
             '乐东': 'Ledong Li Autonomous County',
             '定安': "Ding'an County",
-            '琼中': 'Qiongzhong Li and Miao Autonomous County'
+            '琼中': 'Qiongzhong Li and Miao Autonomous County',
+            '境外输入人员': 'Hainan abroad'
         }
     },
     '福建': {
@@ -187,7 +188,8 @@ city_name_map = {
             '固原': 'Guyuan',
             '石嘴山': 'Shizuishan',
             '银川': 'Yinchuan',
-            '宁东': 'Ningdong County'
+            '宁东': 'Ningdong County',
+            '境外输入人员': 'Ningxia abroad'
         }
     },
     '山西': {
@@ -203,7 +205,8 @@ city_name_map = {
             '朔州': 'Shuozhou',
             '运城': 'Yuncheng',
             '长治': 'Changzhi',
-            '阳泉': 'Yangquan'
+            '阳泉': 'Yangquan',
+            '境外输入人员': 'Shanxi abroad'
         }
     },
     '云南': {
@@ -280,7 +283,8 @@ city_name_map = {
             '通辽': 'Tongliao',
             '鄂尔多斯': 'Ordos',
             '锡林郭勒盟': 'Linguolexi',
-            '阿拉善盟': 'Alashanmeng'
+            '阿拉善盟': 'Alashanmeng',
+            '境外输入人员': 'Neimenggu abroad'
         }
     },
     '新疆': {
@@ -306,6 +310,7 @@ city_name_map = {
             '兵团第六师五家渠市': 'Wujiaqu, Xinjiang Production and Construction Corps 5th Division',
             '兵团第十二师': 'Xinjiang Production and Construction Corps 12th Division',
             '兵团第七师': 'Xinjiang Production and Construction Corps 7th Division',
+            '境外输入人员': 'Xinjiang abroad'
         }
     },
     '四川': {
@@ -334,7 +339,8 @@ city_name_map = {
             '雅安': "Ya'an",
             '甘孜州': 'Garzê Tibetan Autonomous Prefecture',
             '凉山州': 'Liangshan Yi Autonomous Prefecture',
-            '阿坝州': 'Ngawa Tibetan and Qiang Autonomous Prefecture'
+            '阿坝州': 'Ngawa Tibetan and Qiang Autonomous Prefecture',
+            '境外输入人员': 'Sichuan abroad'
         }
     },
     '安徽': {
@@ -356,7 +362,8 @@ city_name_map = {
             '铜陵': 'Tongling',
             '阜阳': 'Fuyang',
             '马鞍山': "Ma'anshan",
-            '黄山': 'Huangshan'
+            '黄山': 'Huangshan',
+            '境外输入人员': 'Anhui abroad'
         }
     },
     '河北': {
@@ -387,7 +394,8 @@ city_name_map = {
             '铜仁': 'Tongren',
             '黔东南州': 'Qiandongnan',
             '黔南州': 'Qiannan',
-            '黔西南州': 'Qianxinan'
+            '黔西南州': 'Qianxinan',
+            '境外输入人员': 'Guizhou abroad'
         }
     },
     '甘肃': {
@@ -474,7 +482,8 @@ city_name_map = {
             '黄石': 'Huangshi',
             '恩施州': 'Enshi Tujia and Miao Autonomous Prefecture',
             '潜江': 'Qianjiang',
-            '神农架林区': 'Shennongjia'
+            '神农架林区': 'Shennongjia',
+            '境外输入人员': 'Hubei abroad'
         }
     },
     '江苏': {
@@ -509,7 +518,8 @@ city_name_map = {
             '通化': 'Tonghua',
             '长春': 'Changchun',
             '公主岭': 'Gongzhuling',
-            '梅河口': 'Meihekou'
+            '梅河口': 'Meihekou',
+            '境外输入人员': 'Jilin abroad'
         }
     },
     '陕西': {
@@ -568,7 +578,8 @@ city_name_map = {
             '衡阳': 'Hengyang',
             '邵阳': 'Shaoyang',
             '郴州': 'Chenzhou',
-            '长沙': 'Changsha'
+            '长沙': 'Changsha',
+            '境外输入人员': 'Hunan abroad'
         }
     },
     '西藏': {
@@ -580,7 +591,8 @@ city_name_map = {
             '昌都': 'Chamdo',
             '林芝': 'Nyingchi',
             '那曲': 'Naqu',
-            '阿里': 'Ali'
+            '阿里': 'Ali',
+            '境外输入人员': 'Xizang abroad'
         }
     },
     '青海': {
@@ -593,7 +605,8 @@ city_name_map = {
             '海西': 'Haixi',
             '玉树': 'Yushu',
             '西宁': 'Xining',
-            '黄南': 'Huangnan'
+            '黄南': 'Huangnan',
+            '境外输入人员': 'Qinghai abroad'
         }
     },
     '重庆': {
