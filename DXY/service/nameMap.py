@@ -25,7 +25,8 @@ city_name_map = {
             '鹤岗': 'Hegang',
             '黑河': 'Heihe',
             '齐齐哈尔': 'Qiqihar',
-            '境外输入人员': 'Heilongjiang abroad'
+            '境外输入人员': 'Heilongjiang abroad',
+            '境外输入': 'Heilongjiang abroad'
         }
     },
     '海南': {
@@ -46,7 +47,8 @@ city_name_map = {
             '乐东': 'Ledong Li Autonomous County',
             '定安': "Ding'an County",
             '琼中': 'Qiongzhong Li and Miao Autonomous County',
-            '境外输入人员': 'Hainan abroad'
+            '境外输入人员': 'Hainan abroad',
+            '境外输入': 'Hainan abroad'
         }
     },
     '福建': {
@@ -61,7 +63,8 @@ city_name_map = {
             '福州': 'Fuzhou',
             '莆田': 'Putian',
             '龙岩': 'Longyan',
-            '境外输入人员': 'Fujian abroad'
+            '境外输入人员': 'Fujian abroad',
+            '境外输入': 'Fujian abroad'
         }
     },
     '河南': {
@@ -85,7 +88,8 @@ city_name_map = {
             '驻马店': 'Zhumadian',
             '鹤壁': 'Hebi',
             '济源': 'Jiyuan',
-            '境外输入人员': 'Henan abroad'
+            '境外输入人员': 'Henan abroad',
+            '境外输入': 'Henan abroad'
         }
     },
     '上海': {
@@ -109,7 +113,9 @@ city_name_map = {
             '崇明区': 'Chongming District',
             '青浦区': 'Qingpu District',
             '金山区': 'Jinshan District',
-            '境外输入人员': 'Shanghai abroad'
+            '境外输入人员': 'Shanghai abroad',
+            '境外输入': 'Shanghai abroad',
+            '外地来沪': 'Shanghai out'
         }
     },
     '江西': {
@@ -127,7 +133,8 @@ city_name_map = {
             '赣州': 'Ganzhou',
             '鹰潭': 'Yingtan',
             '赣江新区': 'Ganjiang New District',
-            '境外输入人员': 'Jiangxi abroad'
+            '境外输入人员': 'Jiangxi abroad',
+            '境外输入': 'Jiangxi abroad'
         }
     },
     '广东': {
@@ -154,7 +161,8 @@ city_name_map = {
             '茂名': 'Maoming',
             '阳江': 'Yangjiang',
             '韶关': 'Shaoguan',
-            '境外输入人员': 'Guangdong abroad'
+            '境外输入人员': 'Guangdong abroad',
+            '境外输入': 'Guangdong abroad'
         }
     },
     '山东': {
@@ -177,7 +185,8 @@ city_name_map = {
             '莱芜': 'Laiwu',
             '菏泽': 'Heze',
             '青岛': 'Qingdao',
-            '境外输入人员': 'Shandong abroad'
+            '境外输入人员': 'Shandong abroad',
+            '境外输入': 'Shandong abroad'
         }
     },
     '宁夏': {
@@ -189,7 +198,8 @@ city_name_map = {
             '石嘴山': 'Shizuishan',
             '银川': 'Yinchuan',
             '宁东': 'Ningdong County',
-            '境外输入人员': 'Ningxia abroad'
+            '境外输入人员': 'Ningxia abroad',
+            '境外输入': 'Ningxia abroad'
         }
     },
     '山西': {
@@ -206,7 +216,8 @@ city_name_map = {
             '运城': 'Yuncheng',
             '长治': 'Changzhi',
             '阳泉': 'Yangquan',
-            '境外输入人员': 'Shanxi abroad'
+            '境外输入人员': 'Shanxi abroad',
+            '境外输入': 'Shanxi abroad'
         }
     },
     '云南': {
@@ -228,7 +239,8 @@ city_name_map = {
             '红河州': 'Honghe',
             '西双版纳': 'Xishuangbanna',
             '迪庆': 'Diqing',
-            '境外输入人员': 'Yunnan abroad'
+            '境外输入人员': 'Yunnan abroad',
+            '境外输入': 'Yunnan abroad'
         }
     },
     '辽宁': {
@@ -248,7 +260,8 @@ city_name_map = {
             '锦州': 'Jinzhou',
             '阜新': 'Fuxin',
             '鞍山': 'Anshan',
-            '境外输入人员': 'Liaoning abroad'
+            '境外输入人员': 'Liaoning abroad',
+            '境外输入': 'Liaoning abroad'
         }
     },
     '浙江': {
@@ -266,7 +279,8 @@ city_name_map = {
             '衢州': 'Quzhou',
             '金华': 'Jinhua',
             '省十里丰监狱': 'Shilifeng Prison',
-            '境外输入人员': 'Zhejiang abroad'
+            '境外输入人员': 'Zhejiang abroad',
+            '境外输入': 'Zhejiang abroad'
         }
     },
     '内蒙古': {
@@ -284,7 +298,8 @@ city_name_map = {
             '鄂尔多斯': 'Ordos',
             '锡林郭勒盟': 'Linguolexi',
             '阿拉善盟': 'Alashanmeng',
-            '境外输入人员': 'Neimenggu abroad'
+            '境外输入人员': 'Neimenggu abroad',
+            '境外输入': 'Neinenggu abroad'
         }
     },
     '新疆': {
@@ -310,7 +325,8 @@ city_name_map = {
             '兵团第六师五家渠市': 'Wujiaqu, Xinjiang Production and Construction Corps 5th Division',
             '兵团第十二师': 'Xinjiang Production and Construction Corps 12th Division',
             '兵团第七师': 'Xinjiang Production and Construction Corps 7th Division',
-            '境外输入人员': 'Xinjiang abroad'
+            '境外输入人员': 'Xinjiang abroad',
+            '境外输入': 'Xinjiang abroad'
         }
     },
     '四川': {
@@ -340,7 +356,8 @@ city_name_map = {
             '甘孜州': 'Garzê Tibetan Autonomous Prefecture',
             '凉山州': 'Liangshan Yi Autonomous Prefecture',
             '阿坝州': 'Ngawa Tibetan and Qiang Autonomous Prefecture',
-            '境外输入人员': 'Sichuan abroad'
+            '境外输入人员': 'Sichuan abroad',
+            '境外输入': 'Sichuan abroad'
         }
     },
     '安徽': {
@@ -363,7 +380,8 @@ city_name_map = {
             '阜阳': 'Fuyang',
             '马鞍山': "Ma'anshan",
             '黄山': 'Huangshan',
-            '境外输入人员': 'Anhui abroad'
+            '境外输入人员': 'Anhui abroad',
+            '境外输入': 'Anhui abroad'
         }
     },
     '河北': {
@@ -380,7 +398,8 @@ city_name_map = {
             '衡水': 'Hengshui',
             '邢台': 'Xingtai',
             '邯郸': 'Handan',
-            '境外输入人员': 'Heibei abroad'
+            '境外输入人员': 'Hebei abroad',
+            '境外输入': 'Hebei abroad'
         }
     },
     '贵州': {
@@ -395,7 +414,8 @@ city_name_map = {
             '黔东南州': 'Qiandongnan',
             '黔南州': 'Qiannan',
             '黔西南州': 'Qianxinan',
-            '境外输入人员': 'Guizhou abroad'
+            '境外输入人员': 'Guizhou abroad',
+            '境外输入': 'Guizhou abroad'
         }
     },
     '甘肃': {
@@ -415,7 +435,8 @@ city_name_map = {
             '金昌': 'Jinchang',
             '陇南': 'Longnan',
             '临夏': 'Linxia',
-            '境外输入人员': 'Gansu abroad'
+            '境外输入人员': 'Gansu abroad',
+            '境外输入': 'Gansu abroad'
         }
     },
     '北京': {
@@ -438,7 +459,9 @@ city_name_map = {
             '密云区': 'Miyun District',
             '门头沟区': 'Mentougou District',
             '延庆区': 'Yanqing District',
-            '境外输入人员': 'Beijing abroad'
+            '境外输入人员': 'Beijing abroad',
+            '境外输入': 'Beijing abroad',
+            '外地来京': 'Beijing out'
         }
     },
     '广西': {
@@ -458,7 +481,8 @@ city_name_map = {
             '贺州': 'Hezhou',
             '钦州': 'Qinzhou',
             '防城港': 'Fangchenggang',
-            '境外输入人员': 'Guangxi abroad'
+            '境外输入人员': 'Guangxi abroad',
+            '境外输入': 'Guangxi abroad'
         }
     },
     '湖北': {
@@ -483,7 +507,8 @@ city_name_map = {
             '恩施州': 'Enshi Tujia and Miao Autonomous Prefecture',
             '潜江': 'Qianjiang',
             '神农架林区': 'Shennongjia',
-            '境外输入人员': 'Hubei abroad'
+            '境外输入人员': 'Hubei abroad',
+            '境外输入': 'Hubei abroad'
         }
     },
     '江苏': {
@@ -502,7 +527,8 @@ city_name_map = {
             '苏州': 'Suzhou',
             '连云港': 'Lianyungang',
             '镇江': 'Zhenjiang',
-            '境外输入人员': 'Jiangsu abroad'
+            '境外输入人员': 'Jiangsu abroad',
+            '境外输入': 'Jiangsu abroad'
         }
     },
     '吉林': {
@@ -519,7 +545,8 @@ city_name_map = {
             '长春': 'Changchun',
             '公主岭': 'Gongzhuling',
             '梅河口': 'Meihekou',
-            '境外输入人员': 'Jilin abroad'
+            '境外输入人员': 'Jilin abroad',
+            '境外输入': 'Jilin abroad'
         }
     },
     '陕西': {
@@ -537,7 +564,8 @@ city_name_map = {
             '铜川': 'Tongchuan',
             '杨凌': 'Yangling District in Xianyang',
             '韩城': 'Hancheng',
-            '境外输入人员': 'Shanxi abroad'
+            '境外输入人员': 'Shanxi abroad',
+            '境外输入': 'Shanxi abroad'
         }
     },
     '天津': {
@@ -559,7 +587,9 @@ city_name_map = {
             '武清区': 'Wuqing District',
             '津南区': 'Jinnan District',
             '红桥区': 'Hongqiao District',
-            '境外输入人员': 'Tianjin abroad'
+            '境外输入人员': 'Tianjin abroad',
+            '境外输入': 'Tianjin abroad',
+            '外地来津': 'Tianjin out'
         }
     },
     '湖南': {
@@ -579,7 +609,8 @@ city_name_map = {
             '邵阳': 'Shaoyang',
             '郴州': 'Chenzhou',
             '长沙': 'Changsha',
-            '境外输入人员': 'Hunan abroad'
+            '境外输入人员': 'Hunan abroad',
+            '境外输入': 'Hunan abroad'
         }
     },
     '西藏': {
@@ -592,7 +623,8 @@ city_name_map = {
             '林芝': 'Nyingchi',
             '那曲': 'Naqu',
             '阿里': 'Ali',
-            '境外输入人员': 'Xizang abroad'
+            '境外输入人员': 'Xizang abroad',
+            '境外输入': 'Xizang abroad'
         }
     },
     '青海': {
@@ -606,7 +638,8 @@ city_name_map = {
             '玉树': 'Yushu',
             '西宁': 'Xining',
             '黄南': 'Huangnan',
-            '境外输入人员': 'Qinghai abroad'
+            '境外输入人员': 'Qinghai abroad',
+            '境外输入': 'Qinghai abroad'
         }
     },
     '重庆': {
@@ -652,7 +685,8 @@ city_name_map = {
             '黔江区': 'Qianjiang Tujia and Miao Autonomous County',
             '城口县': 'Chengkou County',
             '秀山县': 'Xiushan Tujia and Miao Autonomous County',
-            '境外输入人员': 'Chongqing abroad'
+            '境外输入人员': 'Chongqing abroad',
+            '境外输入': 'Chongqing abroad'
         }
     },
     '香港': {
