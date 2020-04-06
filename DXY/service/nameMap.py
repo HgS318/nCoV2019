@@ -436,7 +436,8 @@ city_name_map = {
             '陇南': 'Longnan',
             '临夏': 'Linxia',
             '境外输入人员': 'Gansu abroad',
-            '境外输入': 'Gansu abroad'
+            '境外输入': 'Gansu abroad',
+            '省级（湖北输入）': 'Gansu out'
         }
     },
     '北京': {
