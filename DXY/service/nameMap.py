@@ -249,6 +249,7 @@ city_name_map = {
             '丹东': 'Dandong',
             '大连': 'Dalian',
             '抚顺': 'Fushun',
+            '抚顺市': 'Fushun',
             '朝阳': 'Chaoyang',
             '本溪': 'Benxi',
             '沈阳': 'Shenyang',
