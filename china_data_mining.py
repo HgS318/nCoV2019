@@ -8,6 +8,7 @@ import pymongo
 
 class MongoDBPipeline(object):
 
+
     def __init__(self):
         self.clinet = pymongo.MongoClient("localhost", 27017)
         # self.clinet = pymongo.MongoClient("106.12.56.213", 27017)
