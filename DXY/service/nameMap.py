@@ -26,7 +26,8 @@ city_name_map = {
             '黑河': 'Heihe',
             '齐齐哈尔': 'Qiqihar',
             '境外输入人员': 'Heilongjiang abroad',
-            '境外输入': 'Heilongjiang abroad'
+            '境外输入': 'Heilongjiang abroad',
+            '待明确': 'Heilongjiang uncertain'
         }
     },
     '海南': {
