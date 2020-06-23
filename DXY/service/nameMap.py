@@ -401,7 +401,8 @@ city_name_map = {
             '邢台': 'Xingtai',
             '邯郸': 'Handan',
             '境外输入人员': 'Hebei abroad',
-            '境外输入': 'Hebei abroad'
+            '境外输入': 'Hebei abroad',
+            '待明确': 'Hebei uncertaim'
         }
     },
     '贵州': {

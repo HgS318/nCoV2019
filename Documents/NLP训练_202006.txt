@@ -1,0 +1,584 @@
+
+--------------------------------------2020-02-01 ERNIE-------------------------------------------------
+
+NER-default 20 dev
+
+[INFO] 2020-02-02 02:00:26,812 [run_sequence_labeling.py:  269]:	epoch: 1, progress: 400/2318, step: 98, loss: 0.038553, f1: 0.904762, precision: 0.904762, recall: 0.904762, speed: 0.026552 steps/s
+
+NER-default 2
+
+
+--------------------------------------2020-02-02 ERNIE RELPOS-------------------------------------------------
+
+Desk
+
+[INFO] 2020-02-02 18:02:03,163 [     init.py:   88]:	Load pretraining parameters from ../data/ERNIE_stable-1.0.1/params.
+!!! The CPU_NUM is not specified, you should set CPU_NUM in the environment variable list.
+CPU_NUM indicates that how many CPUPlace are used in the current task.
+And if this parameter are set as N (equal to the number of physical CPU core) the program may be faster.
+
+export CPU_NUM=8 # for example, set CPU_NUM as number of physical CPU core which is 8.
+
+!!! The default number of CPU_NUM=1.
+[INFO] 2020-02-02 18:03:37,957 [run_sequence_labeling.py:  260]:	train pyreader queue size: 70, learning rate: 0.000050
+[INFO] 2020-02-02 18:03:37,957 [run_sequence_labeling.py:  269]:	epoch: 0, progress: 1168/5265, step: 1, loss: 0.620123, f1: 0.318519, precision: 0.392246, recall: 0.268122, speed: 0.010564 steps/s
+[INFO] 2020-02-02 18:03:37,977 [run_sequence_labeling.py:  316]:	validation result of dataset ../data/task_data_zh/task_data/msra_ner/dev.tsv:
+[INFO] 2020-02-02 18:57:42,820 [run_sequence_labeling.py:  320]:	[evaluation] f1: 0.728240, precision: 0.745489, recall: 0.711771, elapsed time: 3244.842587 s, file: ../data/task_data_zh/task_data/msra_ner/dev.tsv, epoch: 0, steps: 1
+[INFO] 2020-02-02 18:57:42,923 [run_sequence_labeling.py:  316]:	validation result of dataset ../data/task_data_zh/task_data/msra_ner/test.tsv:
+[INFO] 2020-02-02 19:58:27,219 [run_sequence_labeling.py:  320]:	[evaluation] f1: 0.737955, precision: 0.760197, recall: 0.716978, elapsed time: 3644.293944 s, file: ../data/task_data_zh/task_data/msra_ner/test.tsv, epoch: 0, steps: 1
+[INFO] 2020-02-02 19:58:27,239 [run_sequence_labeling.py:  339]:	testing ../data/task_data_zh/task_data/msra_ner/test.tsv, save to ./checkpoints/test_result.0.1
+
+
+20
+
+2020-02-02 18:21:17,848-INFO: Device count: 4
+[INFO] 2020-02-02 18:21:17,848 [run_sequence_labeling.py:   98]:	Device count: 4
+2020-02-02 18:21:17,848-INFO: Num train examples: 5265
+[INFO] 2020-02-02 18:21:17,848 [run_sequence_labeling.py:   99]:	Num train examples: 5265
+2020-02-02 18:21:17,848-INFO: Max train steps: 493
+[INFO] 2020-02-02 18:21:17,848 [run_sequence_labeling.py:  100]:	Max train steps: 493
+2020-02-02 18:21:17,848-INFO: Num warmup steps: 0
+[INFO] 2020-02-02 18:21:17,848 [run_sequence_labeling.py:  101]:	Num warmup steps: 0
+2020-02-02 18:21:20,066-INFO: Theoretical memory usage in training: 20497.843 - 21473.930 MB
+[INFO] 2020-02-02 18:21:20,066 [run_sequence_labeling.py:  137]:	Theoretical memory usage in training: 20497.843 - 21473.930 MB
+2020-02-02 18:21:27,975-INFO: Load pretraining parameters from ../data/ERNIE_stable-1.0.1/params.
+[INFO] 2020-02-02 18:21:27,975 [     init.py:   88]:	Load pretraining parameters from ../data/ERNIE_stable-1.0.1/params.
+2020-02-02 18:22:32,889-INFO: train pyreader queue size: 70, learning rate: 0.000050
+!!! The CPU_NUM is not specified, you should set CPU_NUM in the environment variable list.
+CPU_NUM indicates that how many CPUPlace are used in the current task.
+And if this parameter are set as N (equal to the number of physical CPU core) the program may be faster.
+
+export CPU_NUM=4 # for example, set CPU_NUM as number of physical CPU core which is 4.
+
+!!! The default number of CPU_NUM=1.
+[INFO] 2020-02-02 18:22:32,889 [run_sequence_labeling.py:  257]:	train pyreader queue size: 70, learning rate: 0.000050
+2020-02-02 18:22:32,889-INFO: epoch: 0, progress: 1168/5265, step: 1, loss: 0.627460, f1: 0.295296, precision: 0.366898, recall: 0.247077, speed: 0.015424 steps/s
+[INFO] 2020-02-02 18:22:32,889 [run_sequence_labeling.py:  266]:	epoch: 0, progress: 1168/5265, step: 1, loss: 0.627460, f1: 0.295296, precision: 0.366898, recall: 0.247077, speed: 0.015424 steps/s
+2020-02-02 18:23:33,648-INFO: train pyreader queue size: 70, learning rate: 0.000050
+[INFO] 2020-02-02 18:23:33,648 [run_sequence_labeling.py:  257]:	train pyreader queue size: 70, learning rate: 0.000050
+2020-02-02 18:23:33,649-INFO: epoch: 0, progress: 1184/5265, step: 2, loss: 0.657984, f1: 0.692723, precision: 0.722812, recall: 0.665040, speed: 0.016458 steps/s
+[INFO] 2020-02-02 18:23:33,649 [run_sequence_labeling.py:  266]:	epoch: 0, progress: 1184/5265, step: 2, loss: 0.657984, f1: 0.692723, precision: 0.722812, recall: 0.665040, speed: 0.016458 steps/s
+2020-02-02 18:24:43,303-INFO: train pyreader queue size: 70, learning rate: 0.000050
+[INFO] 2020-02-02 18:24:43,303 [run_sequence_labeling.py:  257]:	train pyreader queue size: 70, learning rate: 0.000050
+2020-02-02 18:24:43,304-INFO: epoch: 0, progress: 1200/5265, step: 3, loss: 0.307279, f1: 0.883046, precision: 0.872760, recall: 0.893578, speed: 0.014356 steps/s
+[INFO] 2020-02-02 18:24:43,304 [run_sequence_labeling.py:  266]:	epoch: 0, progress: 1200/5265, step: 3, loss: 0.307279, f1: 0.883046, precision: 0.872760, recall: 0.893578, speed: 0.014356 steps/s
+2020-02-02 18:25:53,442-INFO: train pyreader queue size: 70, learning rate: 0.000050
+[INFO] 2020-02-02 18:25:53,442 [run_sequence_labeling.py:  257]:	train pyreader queue size: 70, learning rate: 0.000050
+2020-02-02 18:25:53,442-INFO: epoch: 0, progress: 1216/5265, step: 4, loss: 0.332209, f1: 0.908263, precision: 0.869303, recall: 0.950880, speed: 0.014258 steps/s
+[INFO] 2020-02-02 18:25:53,442 [run_sequence_labeling.py:  266]:	epoch: 0, progress: 1216/5265, step: 4, loss: 0.332209, f1: 0.908263, precision: 0.869303, recall: 0.950880, speed: 0.014258 steps/s
+2020-02-02 18:27:00,351-INFO: train pyreader queue size: 70, learning rate: 0.000050
+[INFO] 2020-02-02 18:27:00,351 [run_sequence_labeling.py:  257]:	train pyreader queue size: 70, learning rate: 0.000050
+2020-02-02 18:27:00,351-INFO: epoch: 0, progress: 1232/5265, step: 5, loss: 0.193151, f1: 0.975415, precision: 0.966504, recall: 0.984491, speed: 0.014945 steps/s
+[INFO] 2020-02-02 18:27:00,351 [run_sequence_labeling.py:  266]:	epoch: 0, progress: 1232/5265, step: 5, loss: 0.193151, f1: 0.975415, precision: 0.966504, recall: 0.984491, speed: 0.014945 steps/s
+2020-02-02 18:27:00,369-INFO: testing ../data/task_data_zh/task_data/msra_ner/test.tsv, save to ./checkpoints/test_result.0.5
+[INFO] 2020-02-02 18:27:00,369 [run_sequence_labeling.py:  336]:	testing ../data/task_data_zh/task_data/msra_ner/test.tsv, save to ./checkpoints/test_result.0.5
+Traceback (most recent call last):
+  File "D:/MyData/PythonProjects/Demo/src/paddle/ERNIE/ernie/run_sequence_labeling.py", line 355, in <module>
+    main(args)
+  File "D:/MyData/PythonProjects/Demo/src/paddle/ERNIE/ernie/run_sequence_labeling.py", line 282, in main
+    current_epoch, steps)
+  File "D:/MyData/PythonProjects/Demo/src/paddle/ERNIE/ernie/run_sequence_labeling.py", line 348, in predict_wrapper
+    s = ' '.join([rev_label_map[ss]for ss in s])
+  File "D:/MyData/PythonProjects/Demo/src/paddle/ERNIE/ernie/run_sequence_labeling.py", line 348, in <listcomp>
+    s = ' '.join([rev_label_map[ss]for ss in s])
+KeyError: 6
+I0202 18:21:28.130839 40668 parallel_executor.cc:421] The number of CPUPlace, which is used in ParallelExecutor, is 1. And the Program will be copied 1 copies
+I0202 18:21:28.231845 40668 build_strategy.cc:363] SeqOnlyAllReduceOps:0, num_trainers:1
+I0202 18:21:28.374853 40668 parallel_executor.cc:285] Inplace strategy is enabled, when build_strategy.enable_inplace = True
+I0202 18:21:28.444857 40668 parallel_executor.cc:368] Garbage collection strategy is enabled, when FLAGS_eager_delete_tensor_gb = 0
+
+Process finished with exit code 1
+
+
+
+--------------------------------------2020-02-02 ERNIE RELPOS-------------------------------------------------
+20:	all	stable	origin	480
+
+1.250.
+LOC: OrderedDict([('precision', 0.8453384726571911), ('recall', 0.8811048336472065), ('f1', 0.8628511710825597)])
+REL: OrderedDict([('precision', 0.7953144266337855), ('recall', 0.8022388059701493), ('f1', 0.7987616099071208)])
+
+1.300.
+LOC: OrderedDict([('precision', 0.9375191894381333), ('recall', 0.7667294413057125), ('f1', 0.8435665446508737)])
+REL: OrderedDict([('precision', 0.782608695652174), ('recall', 0.8507462686567164), ('f1', 0.8152562574493445)])
+
+1.350.
+LOC: OrderedDict([('precision', 0.9161595672751859), ('recall', 0.8505963590709353), ('f1', 0.8821614583333334)])
+REL: OrderedDict([('precision', 0.8408163265306122), ('recall', 0.7686567164179104), ('f1', 0.8031189083820663)])
+
+1.400
+LOC: OrderedDict([('precision', 0.8841021730842546), ('recall', 0.8734463276836159), ('f1', 0.8787419477074649)])
+REL: OrderedDict([('precision', 0.8013937282229965), ('recall', 0.8582089552238806), ('f1', 0.8288288288288289)])
+
+1.450
+LOC: OrderedDict([('precision', 0.8625224148236701), ('recall', 0.9058380414312618), ('f1', 0.8836497244335578)])
+REL: OrderedDict([('precision', 0.7748344370860927), ('recall', 0.8731343283582089), ('f1', 0.8210526315789474)])
+
+1.500
+LOC: OrderedDict([('precision', 0.9224288204532248), ('recall', 0.7972379158819837), ('f1', 0.8552764495925651)])
+REL: OrderedDict([('precision', 0.8623595505617978), ('recall', 0.763681592039801), ('f1', 0.8100263852242745)])
+
+2.550
+LOC: OrderedDict([('precision', 0.8737993920972644), ('recall', 0.9023226616446955), ('f1', 0.8878319950586782)])
+REL: OrderedDict([('precision', 0.7565858798735511), ('recall', 0.8930348258706468), ('f1', 0.8191671420422133)])
+
+2.600
+LOC: OrderedDict([('precision', 0.8971313029192468), ('recall', 0.8912743251726303), ('f1', 0.894193223327875)])
+REL: OrderedDict([('precision', 0.8166089965397924), ('recall', 0.8805970149253731), ('f1', 0.8473967684021543)])
+
+2.650
+LOC: OrderedDict([('precision', 0.8912750030678611), ('recall', 0.911864406779661), ('f1', 0.9014521534069754)])
+REL: OrderedDict([('precision', 0.7946428571428571), ('recall', 0.8855721393034826), ('f1', 0.8376470588235294)])
+
+2.700
+LOC: OrderedDict([('precision', 0.8488970168019202), ('recall', 0.9324544883866918), ('f1', 0.8887160464281441)])
+REL: OrderedDict([('precision', 0.837772397094431), ('recall', 0.8606965174129353), ('f1', 0.8490797546012269)])
+
+2. 750	BEST-REL
+LOC: OrderedDict([('precision', 0.9038258575197889), ('recall', 0.8601381042059009), ('f1', 0.8814409778063688)])
+REL: OrderedDict([('precision', 0.8609355246523388), ('recall', 0.8470149253731343), ('f1', 0.8539184952978056)])
+
+2.800
+LOC: OrderedDict([('precision', 0.892937924101533), ('recall', 0.8921531701192719), ('f1', 0.8925453746153363)])
+REL: OrderedDict([('precision', 0.8480697384806973), ('recall', 0.8470149253731343), ('f1', 0.8475420037336653)])
+
+2.850
+LOC: OrderedDict([('precision', 0.8948355633362511), ('recall', 0.8984306340238544), ('f1', 0.8966294950507455)])
+REL: OrderedDict([('precision', 0.8142201834862385), ('recall', 0.8830845771144279), ('f1', 0.847255369928401)])
+
+3.900
+LOC: OrderedDict([('precision', 0.8887669227954629), ('recall', 0.9148775894538607), ('f1', 0.9016332590942836)])
+REL: OrderedDict([('precision', 0.7770632368703109), ('recall', 0.9017412935323383), ('f1', 0.8347725964306275)])
+
+3.950
+LOC: OrderedDict([('precision', 0.9057707304393033), ('recall', 0.8749529190207156), ('f1', 0.8900951529471869)])
+REL: OrderedDict([('precision', 0.7827956989247312), ('recall', 0.9054726368159204), ('f1', 0.839677047289504)])
+
+3.1000
+LOC: OrderedDict([('precision', 0.8838928614713368), ('recall', 0.9156308851224105), ('f1', 0.8994819930932413)])
+REL: OrderedDict([('precision', 0.8421052631578947), ('recall', 0.8557213930348259), ('f1', 0.8488587291795187)])
+
+3.1050
+LOC: OrderedDict([('precision', 0.8944114737883284), ('recall', 0.9082234777150031), ('f1', 0.9012645611412197)])
+REL: OrderedDict([('precision', 0.8613989637305699), ('recall', 0.8271144278606966), ('f1', 0.8439086294416244)])
+
+3.1100
+LOC: OrderedDict([('precision', 0.8931355292934373), ('recall', 0.8919020715630885), ('f1', 0.8925183742697407)])
+REL: OrderedDict([('precision', 0.874439461883408), ('recall', 0.7276119402985075), ('f1', 0.7942973523421588)])
+
+3.1150
+LOC: OrderedDict([('precision', 0.8755395683453238), ('recall', 0.9167608286252354), ('f1', 0.8956761729530819)])
+REL: OrderedDict([('precision', 0.83375), ('recall', 0.8296019900497512), ('f1', 0.8316708229426434)])
+
+4.1200
+LOC: OrderedDict([('precision', 0.9477025392986699), ('recall', 0.7871939736346516), ('f1', 0.8600233180165969)])
+REL: OrderedDict([('precision', 0.890937019969278), ('recall', 0.7213930348258707), ('f1', 0.7972508591065292)])
+
+4.1250
+LOC: OrderedDict([('precision', 0.8705659034286393), ('recall', 0.9212806026365349), ('f1', 0.8952055630108576)])
+REL: OrderedDict([('precision', 0.8375757575757575), ('recall', 0.8594527363184079), ('f1', 0.8483732351135665)])
+
+4.1300
+LOC: OrderedDict([('precision', 0.8678330771958861), ('recall', 0.9216572504708098), ('f1', 0.8939357038480273)])
+REL: OrderedDict([('precision', 0.8665730337078652), ('recall', 0.7674129353233831), ('f1', 0.8139841688654355)])
+
+4.1350
+LOC: OrderedDict([('precision', 0.8703747628083491), ('recall', 0.9214061519146265), ('f1', 0.8951637494663657)])
+REL: OrderedDict([('precision', 0.7117988394584139), ('recall', 0.9154228855721394), ('f1', 0.8008705114254625)])
+
+4.1400
+LOC: OrderedDict([('precision', 0.8420217588395286), ('recall', 0.9328311362209667), ('f1', 0.8851033414735839)])
+REL: OrderedDict([('precision', 0.7789934354485777), ('recall', 0.8855721393034826), ('f1', 0.8288707799767171)])
+
+4.1450
+LOC: OrderedDict([('precision', 0.8969903034882256), ('recall', 0.8942875078468299), ('f1', 0.8956368665912234)])
+REL: OrderedDict([('precision', 0.8738127544097694), ('recall', 0.8009950248756219), ('f1', 0.8358208955223881)])
+
+
+
+
+=======
+O:	short	stable	origin 256
+
+5.50
+LOC: OrderedDict([('precision', 0.8934390136503743), ('recall', 0.8181451612903226), ('f1', 0.8541359713744474)])
+REL: OrderedDict([('precision', 0.8136645962732919), ('recall', 0.8632619439868204), ('f1', 0.8377298161470824)])
+
+8.100
+LOC: OrderedDict([('precision', 0.8680475642500959), ('recall', 0.9125), ('f1', 0.8897188912915274)])
+REL: OrderedDict([('precision', 0.8296943231441049), ('recall', 0.9390444810543658), ('f1', 0.8809891808346214)])
+
+8.150
+LOC: OrderedDict([('precision', 0.8521046643913538), ('recall', 0.9060483870967742), ('f1', 0.8782489740082078)])
+REL: OrderedDict([('precision', 0.8415384615384616), ('recall', 0.9011532125205931), ('f1', 0.8703261734287989)])
+
+8.final
+LOC: OrderedDict([('precision', 0.8531866464339909), ('recall', 0.9068548387096774), ('f1', 0.879202501954652)])
+REL: OrderedDict([('precision', 0.8667711598746082), ('recall', 0.9110378912685337), ('f1', 0.8883534136546185)])
+
+
+O:	short	stable	CRF 256
+
+5.50
+LOC: OrderedDict([('precision', 0.8781893004115227), ('recall', 0.8604838709677419), ('f1', 0.8692464358452139)])
+REL: OrderedDict([('precision', 0.8517298187808896), ('recall', 0.8517298187808896), ('f1', 0.8517298187808896)])
+
+LOC: OrderedDict([('precision', 0.8782467532467533), ('recall', 0.8725806451612903), ('f1', 0.8754045307443367)])
+REL: OrderedDict([('precision', 0.8484349258649094), ('recall', 0.8484349258649094), ('f1', 0.8484349258649094)])
+
+8.100
+LOC: OrderedDict([('precision', 0.8892202812100554), ('recall', 0.8415322580645161), ('f1', 0.8647192873420344)])
+REL: OrderedDict([('precision', 0.8584758942457231), ('recall', 0.9093904448105437), ('f1', 0.8832)])
+
+LOC: OrderedDict([('precision', 0.8674556213017751), ('recall', 0.8866935483870968), ('f1', 0.8769690927218347)])
+REL: OrderedDict([('precision', 0.8449848024316109), ('recall', 0.9159802306425041), ('f1', 0.8790513833992094)])
+
+8.150
+LOC: OrderedDict([('precision', 0.8478500551267916), ('recall', 0.930241935483871), ('f1', 0.887137089021342)])
+REL: OrderedDict([('precision', 0.9018932874354562), ('recall', 0.8632619439868204), ('f1', 0.8821548821548822)])
+
+LOC: OrderedDict([('precision', 0.8589118198874296), ('recall', 0.9229838709677419), ('f1', 0.889795918367347)])
+REL: OrderedDict([('precision', 0.8920265780730897), ('recall', 0.8846787479406919), ('f1', 0.8883374689826303)])
+
+8.200	BEST-REL
+LOC: OrderedDict([('precision', 0.867704280155642), ('recall', 0.8991935483870968), ('f1', 0.8831683168316832)])
+REL: OrderedDict([('precision', 0.8667711598746082), ('recall', 0.9110378912685337), ('f1', 0.8883534136546185)])
+
+LOC: OrderedDict([('precision', 0.8565936178392926), ('recall', 0.8983870967741936), ('f1', 0.8769927179689038)])
+REL: OrderedDict([('precision', 0.865506329113924), ('recall', 0.9011532125205931), ('f1', 0.8829701372074253)])
+
+14.250
+LOC: OrderedDict([('precision', 0.8632980806893851), ('recall', 0.8887096774193548), ('f1', 0.8758195907013709)])
+REL: OrderedDict([('precision', 0.8797996661101837), ('recall', 0.8682042833607908), ('f1', 0.8739635157545607)])
+
+14.300	BEST-SYN
+LOC: OrderedDict([('precision', 0.8716), ('recall', 0.8786290322580645), ('f1', 0.8751004016064257)])
+REL: OrderedDict([('precision', 0.8947368421052632), ('recall', 0.8682042833607908), ('f1', 0.8812709030100334)])
+
+14.final
+LOC: OrderedDict([('precision', 0.849320241691843), ('recall', 0.9068548387096774), ('f1', 0.8771450858034321)])
+REL: OrderedDict([('precision', 0.8210059171597633), ('recall', 0.914332784184514), ('f1', 0.8651597817614965)])
+
+
+
+242:	short	MAX512	CRF 256
+
+5.50
+LOC: OrderedDict([('precision', 0.8809338521400778), ('recall', 0.9129032258064517), ('f1', 0.8966336633663367)])
+REL: OrderedDict([('precision', 0.9), ('recall', 0.8303130148270181), ('f1', 0.8637532133676094)])
+
+8.100
+LOC: OrderedDict([('precision', 0.9043367346938775), ('recall', 0.8576612903225806), ('f1', 0.8803807947019868)])
+REL: OrderedDict([('precision', 0.9042735042735043), ('recall', 0.871499176276771), ('f1', 0.8875838926174497)])
+
+10.150
+LOC: OrderedDict([('precision', 0.8537925980212532), ('recall', 0.9395161290322581), ('f1', 0.8946054904972164)])
+REL: OrderedDict([('precision', 0.8828382838283828), ('recall', 0.8813838550247117), ('f1', 0.8821104699093159)])
+
+12.200
+LOC: OrderedDict([('precision', 0.8986346710798511), ('recall', 0.8758064516129033), ('f1', 0.8870737186032265)])
+REL: OrderedDict([('precision', 0.8726114649681529), ('recall', 0.9028006589785832), ('f1', 0.8874493927125505)])
+
+15.250
+LOC: OrderedDict([('precision', 0.8585293019783501), ('recall', 0.9274193548387096), ('f1', 0.8916456677650707)])
+REL: OrderedDict([('precision', 0.8430493273542601), ('recall', 0.929159802306425), ('f1', 0.884012539184953)])
+
+17.300
+LOC: OrderedDict([('precision', 0.8723404255319149), ('recall', 0.9092741935483871), ('f1', 0.8904244817374137)])
+REL: OrderedDict([('precision', 0.8873720136518771), ('recall', 0.85667215815486), ('f1', 0.8717518860016764)])
+
+20.350
+LOC: OrderedDict([('precision', 0.8811244979919679), ('recall', 0.8846774193548387), ('f1', 0.882897384305835)])
+REL: OrderedDict([('precision', 0.8402366863905325), ('recall', 0.9357495881383855), ('f1', 0.8854247856586126)])
+
+22.400
+LOC: OrderedDict([('precision', 0.8687888198757764), ('recall', 0.9024193548387097), ('f1', 0.8852848101265823)])
+REL: OrderedDict([('precision', 0.9065743944636678), ('recall', 0.8632619439868204), ('f1', 0.8843881856540085)])
+
+24.450
+LOC: OrderedDict([('precision', 0.8734375), ('recall', 0.9016129032258065), ('f1', 0.8873015873015874)])
+REL: OrderedDict([('precision', 0.8934010152284264), ('recall', 0.8698517298187809), ('f1', 0.8814691151919867)])
+
+27.500
+LOC: OrderedDict([('precision', 0.8527514231499052), ('recall', 0.9060483870967742), ('f1', 0.8785923753665689)])
+REL: OrderedDict([('precision', 0.8689320388349514), ('recall', 0.8846787479406919), ('f1', 0.8767346938775509)])
+
+29.550
+LOC: OrderedDict([('precision', 0.8663017982799062), ('recall', 0.8935483870967742), ('f1', 0.8797141722905916)])
+REL: OrderedDict([('precision', 0.8709677419354839), ('recall', 0.8451400329489291), ('f1', 0.8578595317725751)])
+
+31.600
+LOC: OrderedDict([('precision', 0.8742318721835314), ('recall', 0.8604838709677419), ('f1', 0.867303393619183)])
+REL: OrderedDict([('precision', 0.8812709030100334), ('recall', 0.8682042833607908), ('f1', 0.8746887966804979)])
+
+34.650
+LOC: OrderedDict([('precision', 0.8556740289413557), ('recall', 0.9060483870967742), ('f1', 0.8801410105757932)])
+REL: OrderedDict([('precision', 0.842814371257485), ('recall', 0.9275123558484349), ('f1', 0.8831372549019608)])
+
+36.700
+LOC: OrderedDict([('precision', 0.8647058823529412), ('recall', 0.8891129032258065), ('f1', 0.8767395626242546)])
+REL: OrderedDict([('precision', 0.8859060402684564), ('recall', 0.8698517298187809), ('f1', 0.8778054862842892)])
+
+39.750
+LOC: OrderedDict([('precision', 0.8487332339791356), ('recall', 0.9185483870967742), ('f1', 0.8822618125484121)])
+REL: OrderedDict([('precision', 0.8701923076923077), ('recall', 0.8945634266886326), ('f1', 0.8822095857026807)])
+
+43.850	BEST-REL
+LOC: OrderedDict([('precision', 0.8673267326732673), ('recall', 0.8830645161290323), ('f1', 0.875124875124875)])
+REL: OrderedDict([('precision', 0.8744038155802861), ('recall', 0.9060955518945635), ('f1', 0.8899676375404532)])
+
+48.950
+LOC: OrderedDict([('precision', 0.8555176336746303), ('recall', 0.9096774193548387), ('f1', 0.8817666601524331)])
+REL: OrderedDict([('precision', 0.8766025641025641), ('recall', 0.9011532125205931), ('f1', 0.8887083671811535)])
+
+
+
+
+laptop:	short MAX512	CRF	480	3隐藏层
+
+5.50
+LOC: OrderedDict([('precision', 0.8419654714475432), ('recall', 0.9228529839883551), ('f1', 0.8805555555555555)])
+REL: OrderedDict([('precision', 0.8559077809798271), ('recall', 0.8826151560178306), ('f1', 0.869056327724945)])
+
+LOC: OrderedDict([('precision', 0.8782467532467533), ('recall', 0.8725806451612903), ('f1', 0.8754045307443367)])
+REL: OrderedDict([('precision', 0.8484349258649094), ('recall', 0.8484349258649094), ('f1', 0.8484349258649094)])
+
+
+
+ws2 (O):	short MAX512	CRF	480
+
+5.50
+LOC: OrderedDict([('precision', 0.8419654714475432), ('recall', 0.9228529839883551), ('f1', 0.8805555555555555)])
+REL: OrderedDict([('precision', 0.8559077809798271), ('recall', 0.8826151560178306), ('f1', 0.869056327724945)])
+
+8.100
+LOC: OrderedDict([('precision', 0.8659098971266407), ('recall', 0.8882823871906841), ('f1', 0.8769534758397701)])
+REL: OrderedDict([('precision', 0.9118110236220472), ('recall', 0.8603268945022289), ('f1', 0.8853211009174313)])
+
+8.150
+LOC: OrderedDict([('precision', 0.8518267929634641), ('recall', 0.9163027656477438), ('f1', 0.8828892005610097)])
+REL: OrderedDict([('precision', 0.8553191489361702), ('recall', 0.8959881129271917), ('f1', 0.8751814223512338)])
+
+8.final.
+LOC: OrderedDict([('precision', 0.8367875647668394), ('recall', 0.9403202328966521), ('f1', 0.8855380397532556)])
+REL: OrderedDict([('precision', 0.8833087149187593), ('recall', 0.888558692421991), ('f1', 0.8859259259259259)])
+
+ws2:	short MAX512	Softmax	480
+
+5.50
+LOC: OrderedDict([('precision', 0.8275080906148867), ('recall', 0.9304949053857351), ('f1', 0.8759849263446385)])
+REL: OrderedDict([('precision', 0.8211382113821138), ('recall', 0.9004457652303121), ('f1', 0.8589652728561304)])
+
+
+
+--------------------------------------2020-03-11 NER-------------------------------------------------
+
+==================tiny==================
+0.100
+accuracy = 0.826230
+
+0.200
+accuracy = 0.806557
+
+0.300
+accuracy = 0.849180
+
+0.500
+accuracy = 0.842623
+
+0.1000
+accuracy = 0.849180
+
+0.1500
+accuracy = 0.849180
+
+0.2000
+accuracy = 0.852459
+
+0.2500
+accuracy = 0.855738
+
+0.3000
+accuracy = 0.852459
+
+0.3500
+accuracy = 0.872131
+
+0.4000
+accuracy = 0.852459
+
+0.4500
+accuracy = 0.855738
+
+0.5000
+accuracy = 0.862295
+
+0.5500*
+accuracy = 0.872131
+
+0.6000
+accuracy = 0.868852
+
+0.6500
+accuracy = 0.875410
+
+0.7000
+accuracy = 0.865574
+
+0.7500
+accuracy = 0.865574
+
+0.8000
+accuracy = 0.852459
+
+0.8500
+accuracy = 0.832787
+
+0.9000
+accuracy = 0.839344
+
+0.9500
+accuracy = 0.842623
+
+0.10000 *
+accuracy = 0.865574
+
+0.10500
+accuracy = 0.845902
+
+0.11000
+accuracy = 0.842623
+
+0.11500
+accuracy = 0.855738
+
+0.12000
+accuracy = 0.842623
+
+0.12500
+accuracy = 0.849180
+
+0.13000
+accuracy = 0.845902
+
+0.13500
+accuracy = 0.859016
+
+0.14000
+accuracy = 0.839344
+
+0.14500
+accuracy = 0.855738
+
+0.15000
+accuracy = 0.855738
+
+0.15500
+accuracy = 0.852459
+
+0.16000	*
+accuracy = 0.865574
+
+0.16500
+accuracy = 0.849180
+
+0.17000
+accuracy = 0.852459
+
+0.17500
+accuracy = 0.852459
+
+0.18000
+accuracy = 0.852459
+
+0.18500
+accuracy = 0.862295
+
+0.19000
+accuracy = 0.806557
+
+0.19500
+accuracy = 0.832787
+
+0.20000
+accuracy = 0.859016
+
+0.20500
+accuracy = 0.852459
+
+0.21000
+accuracy = 0.845902
+
+0.21500
+accuracy = 0.875410
+
+0.22000
+accuracy = 0.859016
+
+0.22500
+accuracy = 0.852459
+
+0.23000
+accuracy = 0.842623
+
+0.23500
+accuracy = 0.852459
+
+0.24000
+accuracy = 0.872131
+
+
+
+
+
+-------------------------------------- 2020-06-17 POI Classify -------------------------------------------------
+
+20190617 Wuhan L1 label23(包含未分类)
+test accuracy: 0.94435982
+
+
+20190618 Wuhan L1 label22(去掉未分类)
+test accuracy: 0.94863210
+test result saved: test_result__20200623-2039.csv
+
+
+20190619 NanjingWuhan L1 label21
+test accuracy: 0.93199585
+test result saved: test_result__20200623-2053.csv
+
+
+20190619 L2_01
+test accuracy: 0.87914116
+L1 test accuracy: 0.93094984
+test result saved: test_result_20200623-2114.csv
+
+
+20190619 L2_02
+test accuracy: 0.88061466
+L1 test accuracy: 0.93177888
+test result saved: test_result__20200623-2103.csv
+
+
+20190619 L2_epoch6_batch24_seq64_regularizer0.002
+test accuracy: 0.88316979
+L1 test accuracy: 0.93360536
+test result saved: test_result__20200623-2047.csv
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
