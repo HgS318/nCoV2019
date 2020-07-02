@@ -116,7 +116,8 @@ city_name_map = {
             '金山区': 'Jinshan District',
             '境外输入人员': 'Shanghai abroad',
             '境外输入': 'Shanghai abroad',
-            '外地来沪': 'Shanghai out'
+            '外地来沪': 'Shanghai out',
+            '境外来沪': 'Shanghai abroad'
         }
     },
     '江西': {
