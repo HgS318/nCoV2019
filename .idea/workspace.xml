@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7cdddcb2-3635-49c7-9b23-bd79e8f95991" name="Default Changelist" comment="">
+    <list default="true" id="7cdddcb2-3635-49c7-9b23-bd79e8f95991" name="Default Changelist" comment="update data 0618">
+      <change afterPath="$PROJECT_DIR$/QHDG/qh_data/community_0717-1110.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QHDG/qh_data/community_0717-1110.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/nCoV_China_2020-07-17_col_20200717-1111.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/nCoV_China_2020-07-17_col_20200717-1111_history.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/nCoV_China_2020-07-17_col_20200717-1111_p.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patient_tracker/tracks_0717-1112.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/nCoV2019.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/nCoV2019.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,20 +19,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/china_data_mining.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="74">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="323">
+              <caret line="181" column="4" lean-forward="true" selection-start-line="181" selection-start-column="4" selection-end-line="181" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DXY/service/crawler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+            <state relative-caret-position="313">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="e#103#132#0" expanded="true" />
               </folding>
@@ -34,10 +41,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/patient_tracker/patient_tracker.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="70">
+              <caret line="116" column="47" lean-forward="true" selection-start-line="116" selection-start-column="47" selection-end-line="116" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/QHDG/qhdg_community.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+            <state relative-caret-position="294">
+              <caret line="93" column="45" lean-forward="true" selection-start-line="93" selection-start-column="45" selection-end-line="93" selection-end-column="45" />
               <folding>
                 <element signature="e#165#340#0" />
                 <element signature="e#604#1089#0" />
@@ -50,8 +66,26 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>save</find>
+      <find>河北</find>
+      <find>shanghai</find>
+    </findStrings>
+    <dirStrings>
+      <dir>F:\Ubuntu18\PythonProjects\nCoV2019\patient_tracker</dir>
+    </dirStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/DXY/service/crawler.py" />
+        <option value="$PROJECT_DIR$/DXY/service/nameMap.py" />
+      </list>
+    </option>
   </component>
   <component name="ProjectConfigurationFiles">
     <option name="files">
@@ -66,8 +100,8 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
-    <option name="width" value="1385" />
-    <option name="height" value="745" />
+    <option name="width" value="1110" />
+    <option name="height" value="600" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -82,6 +116,22 @@
               <item name="nCoV2019" type="b2602c69:ProjectViewProjectNode" />
               <item name="nCoV2019" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="nCoV2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nCoV2019" type="462c0819:PsiDirectoryNode" />
+              <item name="DXY" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nCoV2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nCoV2019" type="462c0819:PsiDirectoryNode" />
+              <item name="DXY" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nCoV2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nCoV2019" type="462c0819:PsiDirectoryNode" />
+              <item name="QHDG" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -94,7 +144,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -108,7 +158,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.crawler">
+  <component name="RunManager" selected="Python.patient_tracker">
     <configuration name="china_data_mining" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="nCoV2019" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -199,10 +249,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.patient_tracker" />
         <item itemvalue="Python.crawler" />
         <item itemvalue="Python.china_data_mining" />
         <item itemvalue="Python.qhdg_community" />
-        <item itemvalue="Python.patient_tracker" />
       </list>
     </recent_temporary>
   </component>
@@ -227,34 +277,52 @@
       <workItem from="1590722545543" duration="754000" />
       <workItem from="1590816818853" duration="174000" />
       <workItem from="1590903164158" duration="265000" />
-    </task>
-    <task id="LOCAL-00001" summary="update data 0522">
-      <created>1590122006021</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1590122006021</updated>
-    </task>
-    <task id="LOCAL-00002" summary="update data 0522">
-      <created>1590206124289</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1590206124290</updated>
-    </task>
-    <task id="LOCAL-00003" summary="update data 0524">
-      <created>1590300206664</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1590300206664</updated>
-    </task>
-    <task id="LOCAL-00004" summary="update data 0525">
-      <created>1590377823807</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1590377823807</updated>
+      <workItem from="1590989339903" duration="164000" />
+      <workItem from="1591077174580" duration="13000" />
+      <workItem from="1591077210286" duration="703000" />
+      <workItem from="1591154237498" duration="262000" />
+      <workItem from="1591241651316" duration="244000" />
+      <workItem from="1591328159597" duration="333000" />
+      <workItem from="1591421195505" duration="325000" />
+      <workItem from="1591502403062" duration="162000" />
+      <workItem from="1591604529493" duration="1337000" />
+      <workItem from="1591687869854" duration="265000" />
+      <workItem from="1591758863507" duration="931000" />
+      <workItem from="1591857850467" duration="121000" />
+      <workItem from="1591929589177" duration="213000" />
+      <workItem from="1592015696393" duration="940000" />
+      <workItem from="1592100354212" duration="375000" />
+      <workItem from="1592229784925" duration="859000" />
+      <workItem from="1592309467083" duration="129000" />
+      <workItem from="1592362914546" duration="245000" />
+      <workItem from="1592463104720" duration="366000" />
+      <workItem from="1592545790533" duration="168000" />
+      <workItem from="1592626149029" duration="376000" />
+      <workItem from="1592692790274" duration="141000" />
+      <workItem from="1592803232281" duration="180000" />
+      <workItem from="1592918858188" duration="1075000" />
+      <workItem from="1592976198261" duration="849000" />
+      <workItem from="1593057401689" duration="2179000" />
+      <workItem from="1593072807138" duration="607000" />
+      <workItem from="1593147984719" duration="703000" />
+      <workItem from="1593234877870" duration="159000" />
+      <workItem from="1593397421130" duration="282000" />
+      <workItem from="1593669450089" duration="475000" />
+      <workItem from="1593768664051" duration="133000" />
+      <workItem from="1593834273370" duration="679000" />
+      <workItem from="1593930494851" duration="131000" />
+      <workItem from="1594025554460" duration="165000" />
+      <workItem from="1594118237820" duration="234000" />
+      <workItem from="1594181940560" duration="153000" />
+      <workItem from="1594267921952" duration="308000" />
+      <workItem from="1594351512806" duration="2572000" />
+      <workItem from="1594446829444" duration="238000" />
+      <workItem from="1594522112339" duration="517000" />
+      <workItem from="1594611939922" duration="424000" />
+      <workItem from="1594701333183" duration="151000" />
+      <workItem from="1594783613956" duration="3139000" />
+      <workItem from="1594873945156" duration="268000" />
+      <workItem from="1594955446339" duration="730000" />
     </task>
     <task id="LOCAL-00005" summary="update data 0526">
       <created>1590465394653</created>
@@ -298,28 +366,328 @@
       <option name="project" value="LOCAL" />
       <updated>1590903364610</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="update data 0601">
+      <created>1590989429843</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1590989429843</updated>
+    </task>
+    <task id="LOCAL-00012" summary="update data 0602">
+      <created>1591077306205</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1591077306205</updated>
+    </task>
+    <task id="LOCAL-00013" summary="update data 0603">
+      <created>1591154477767</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1591154477767</updated>
+    </task>
+    <task id="LOCAL-00014" summary="update data 0604">
+      <created>1591241878690</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1591241878690</updated>
+    </task>
+    <task id="LOCAL-00015" summary="update data 0605">
+      <created>1591328412125</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1591328412125</updated>
+    </task>
+    <task id="LOCAL-00016" summary="update data 0607">
+      <created>1591421499507</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1591421499507</updated>
+    </task>
+    <task id="LOCAL-00017" summary="update data 0607">
+      <created>1591502549385</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1591502549385</updated>
+    </task>
+    <task id="LOCAL-00018" summary="update data 0608">
+      <created>1591604665215</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1591604665215</updated>
+    </task>
+    <task id="LOCAL-00019" summary="update data 0609">
+      <created>1591688075855</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1591688075856</updated>
+    </task>
+    <task id="LOCAL-00020" summary="update data 0609">
+      <created>1591688121210</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1591688121210</updated>
+    </task>
+    <task id="LOCAL-00021" summary="update data 0610">
+      <created>1591759193971</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1591759193971</updated>
+    </task>
+    <task id="LOCAL-00022" summary="update data 0611">
+      <created>1591857958802</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1591857958802</updated>
+    </task>
+    <task id="LOCAL-00023" summary="update data 0612">
+      <created>1591929776673</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1591929776673</updated>
+    </task>
+    <task id="LOCAL-00024" summary="update data 0613">
+      <created>1592016016670</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1592016016670</updated>
+    </task>
+    <task id="LOCAL-00025" summary="update data 0614">
+      <created>1592100658511</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1592100658511</updated>
+    </task>
+    <task id="LOCAL-00026" summary="update data 0615">
+      <created>1592230537281</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1592230537281</updated>
+    </task>
+    <task id="LOCAL-00027" summary="update data 0616">
+      <created>1592309564683</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1592309564683</updated>
+    </task>
+    <task id="LOCAL-00028" summary="update data 0617">
+      <created>1592363127577</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1592363127577</updated>
+    </task>
+    <task id="LOCAL-00029" summary="update data 0618">
+      <created>1592463413721</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1592463413721</updated>
+    </task>
+    <task id="LOCAL-00030" summary="update data 0619">
+      <created>1592545930457</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1592545930457</updated>
+    </task>
+    <task id="LOCAL-00031" summary="update data 0620">
+      <created>1592626331297</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1592626331297</updated>
+    </task>
+    <task id="LOCAL-00032" summary="update data 0621">
+      <created>1592692900909</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1592692900910</updated>
+    </task>
+    <task id="LOCAL-00033" summary="update data 0622">
+      <created>1592803386299</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1592803386299</updated>
+    </task>
+    <task id="LOCAL-00034" summary="update data 0623">
+      <created>1592919277315</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1592919277315</updated>
+    </task>
+    <task id="LOCAL-00035" summary="update data 0624">
+      <created>1592976445809</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1592976445809</updated>
+    </task>
+    <task id="LOCAL-00036" summary="update data 0625">
+      <created>1593062555489</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1593062555489</updated>
+    </task>
+    <task id="LOCAL-00037" summary="update data 0626">
+      <created>1593149060181</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1593149060181</updated>
+    </task>
+    <task id="LOCAL-00038" summary="update data 0629">
+      <created>1593397626565</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1593397626565</updated>
+    </task>
+    <task id="LOCAL-00039" summary="update data 0702">
+      <created>1593669907784</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1593669907784</updated>
+    </task>
+    <task id="LOCAL-00040" summary="update data 0703">
+      <created>1593768768855</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1593768768855</updated>
+    </task>
+    <task id="LOCAL-00041" summary="update data 0704">
+      <created>1593834770121</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1593834770121</updated>
+    </task>
+    <task id="LOCAL-00042" summary="update data 0705">
+      <created>1593930608280</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1593930608280</updated>
+    </task>
+    <task id="LOCAL-00043" summary="update data 0706">
+      <created>1594025702810</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1594025702810</updated>
+    </task>
+    <task id="LOCAL-00044" summary="update data 0707">
+      <created>1594118421819</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1594118421819</updated>
+    </task>
+    <task id="LOCAL-00045" summary="update data 0708">
+      <created>1594182070508</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1594182070508</updated>
+    </task>
+    <task id="LOCAL-00046" summary="update data 0709">
+      <created>1594268198268</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1594268198268</updated>
+    </task>
+    <task id="LOCAL-00047" summary="update data 0710">
+      <created>1594351960272</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1594351960273</updated>
+    </task>
+    <task id="LOCAL-00048" summary="update data 0711">
+      <created>1594446989460</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1594446989461</updated>
+    </task>
+    <task id="LOCAL-00049" summary="update data 0712">
+      <created>1594522608753</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1594522608753</updated>
+    </task>
+    <task id="LOCAL-00050" summary="update data 0713">
+      <created>1594612273630</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1594612273631</updated>
+    </task>
+    <task id="LOCAL-00051" summary="update data 0714">
+      <created>1594701441376</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1594701441376</updated>
+    </task>
+    <task id="LOCAL-00052" summary="update data 0618">
+      <created>1594784130319</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1594784130319</updated>
+    </task>
+    <task id="LOCAL-00053" summary="update data 0717">
+      <created>1594874069501</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1594874069503</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5143000" />
+    <option name="totallyTimeSpent" value="30166000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49893844" visible="true" weight="0.2872483" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49893844" visible="true" weight="0.31140938" />
       <window_info id="Structure" order="1" sideWeight="0.50106156" side_tool="true" weight="0.27919462" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32905984" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28062677" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39972898" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32837838" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" />
@@ -334,36 +702,111 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update data 0522" />
-    <MESSAGE value="update data 0524" />
-    <MESSAGE value="update data 0525" />
-    <MESSAGE value="update data 0526" />
-    <MESSAGE value="update data 0527" />
-    <MESSAGE value="update data 0528" />
-    <MESSAGE value="update data 0529" />
-    <MESSAGE value="update data 0530" />
-    <MESSAGE value="update data 0531" />
-    <option name="LAST_COMMIT_MESSAGE" value="update data 0531" />
+    <MESSAGE value="update data 0617" />
+    <MESSAGE value="update data 0619" />
+    <MESSAGE value="update data 0620" />
+    <MESSAGE value="update data 0621" />
+    <MESSAGE value="update data 0622" />
+    <MESSAGE value="update data 0623" />
+    <MESSAGE value="update data 0624" />
+    <MESSAGE value="update data 0625" />
+    <MESSAGE value="update data 0626" />
+    <MESSAGE value="update data 0629" />
+    <MESSAGE value="update data 0702" />
+    <MESSAGE value="update data 0703" />
+    <MESSAGE value="update data 0704" />
+    <MESSAGE value="update data 0705" />
+    <MESSAGE value="update data 0706" />
+    <MESSAGE value="update data 0707" />
+    <MESSAGE value="update data 0708" />
+    <MESSAGE value="update data 0709" />
+    <MESSAGE value="update data 0710" />
+    <MESSAGE value="update data 0711" />
+    <MESSAGE value="update data 0712" />
+    <MESSAGE value="update data 0713" />
+    <MESSAGE value="update data 0714" />
+    <MESSAGE value="update data 0618" />
+    <MESSAGE value="update data 0717" />
+    <option name="LAST_COMMIT_MESSAGE" value="update data 0717" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/nCoV2019$qhdg_community.coverage" NAME="qhdg_community Coverage Results" MODIFIED="1590989350649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QHDG" />
-    <SUITE FILE_PATH="coverage/nCoV2019$crawler.coverage" NAME="crawler Coverage Results" MODIFIED="1590989410623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DXY/service" />
-    <SUITE FILE_PATH="coverage/nCoV2019$china_data_mining.coverage" NAME="china_data_mining Coverage Results" MODIFIED="1590989402008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/nCoV2019$patient_tracker.coverage" NAME="patient_tracker Coverage Results" MODIFIED="1590722670995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/patient_tracker" />
+    <SUITE FILE_PATH="coverage/nCoV2019$qhdg_community.coverage" NAME="qhdg_community Coverage Results" MODIFIED="1594955450948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QHDG" />
+    <SUITE FILE_PATH="coverage/nCoV2019$crawler.coverage" NAME="crawler Coverage Results" MODIFIED="1594955504127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DXY/service" />
+    <SUITE FILE_PATH="coverage/nCoV2019$china_data_mining.coverage" NAME="china_data_mining Coverage Results" MODIFIED="1594955489893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/nCoV2019$patient_tracker.coverage" NAME="patient_tracker Coverage Results" MODIFIED="1594955535979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/patient_tracker" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/patient_tracker/patient_tracker.py">
+    <entry file="file://$PROJECT_DIR$/DXY/service/userAgent.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/nCoV_China_2020-06-14_col_20200614-1006.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DXY/service/db.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DXY/service/nameMap.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="421">
+          <caret line="118" column="35" selection-start-line="118" selection-start-column="35" selection-end-line="118" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DXY/service/crawler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#103#132#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/QHDG/qhdg_community.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        <state relative-caret-position="294">
+          <caret line="93" column="45" lean-forward="true" selection-start-line="93" selection-start-column="45" selection-end-line="93" selection-end-column="45" />
           <folding>
             <element signature="e#165#340#0" />
             <element signature="e#604#1089#0" />
@@ -373,20 +816,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/china_data_mining.py">
+    <entry file="file://$PROJECT_DIR$/patient_tracker/patient_tracker.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="70">
+          <caret line="116" column="47" lean-forward="true" selection-start-line="116" selection-start-column="47" selection-end-line="116" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DXY/service/crawler.py">
+    <entry file="file://$PROJECT_DIR$/china_data_mining.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-          <folding>
-            <element signature="e#103#132#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="323">
+          <caret line="181" column="4" lean-forward="true" selection-start-line="181" selection-start-column="4" selection-end-line="181" selection-end-column="4" />
         </state>
       </provider>
     </entry>
