@@ -322,6 +322,7 @@ city_name_map = {
             '昌吉州': 'Changji',
             '阿克苏地区': 'Akesu',
             '阿勒泰': 'Aletai',
+            '喀什地区': 'Kashen',
             '兵团第四师': 'Xinjiang Production and Construction Corps 4th Division',
             '兵团第九师': 'Xinjiang Production and Construction Corps 9th Division',
             '兵团第八师石河子市': 'Shihezi, Xinjiang Production and Construction Corps 8th Division',
