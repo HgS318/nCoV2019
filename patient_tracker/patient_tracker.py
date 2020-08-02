@@ -153,4 +153,4 @@ def get_one_tracker_set():
 if __name__ == '__main__':
     for i in range(365):
         get_one_tracker_set()
-        time.sleep(85600)
+        time.sleep(85900)
