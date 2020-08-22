@@ -15,17 +15,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/china_data_mining.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="147" column="13" lean-forward="true" selection-start-line="147" selection-start-column="13" selection-end-line="147" selection-end-column="13" />
+            <state relative-caret-position="120">
+              <caret line="133" column="13" selection-start-line="133" selection-start-column="13" selection-end-line="133" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DXY/service/crawler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4">
-              <caret line="55" column="62" lean-forward="true" selection-start-line="55" selection-start-column="62" selection-end-line="55" selection-end-column="62" />
+            <state relative-caret-position="220">
+              <caret line="65" column="51" lean-forward="true" selection-start-line="65" selection-start-column="51" selection-end-line="65" selection-end-column="51" />
               <folding>
                 <element signature="e#103#132#0" expanded="true" />
               </folding>
@@ -42,11 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/QHDG/qhdg_community.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="152" column="13" lean-forward="true" selection-start-line="152" selection-start-column="13" selection-end-line="152" selection-end-column="13" />
+            <state relative-caret-position="325">
+              <caret line="149" column="77" lean-forward="true" selection-start-line="149" selection-start-column="77" selection-end-line="149" selection-end-column="77" />
               <folding>
                 <element signature="e#165#340#0" />
                 <element signature="e#604#1089#0" />
@@ -347,13 +347,7 @@
       <workItem from="1597722570952" duration="132000" />
       <workItem from="1597812151531" duration="163000" />
       <workItem from="1597907091861" duration="164000" />
-    </task>
-    <task id="LOCAL-00039" summary="update data 0702">
-      <created>1593669907784</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1593669907784</updated>
+      <workItem from="1597980365970" duration="249000" />
     </task>
     <task id="LOCAL-00040" summary="update data 0703">
       <created>1593768768855</created>
@@ -691,11 +685,18 @@
       <option name="project" value="LOCAL" />
       <updated>1597907198687</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="update data 0820">
+      <created>1597980570932</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1597980570933</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50948000" />
+    <option name="totallyTimeSpent" value="51197000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -710,7 +711,7 @@
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49893844" visible="true" weight="0.24453025" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49893844" visible="true" weight="0.24774775" />
       <window_info id="Structure" order="1" sideWeight="0.50106156" side_tool="true" weight="0.27919462" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -805,9 +806,9 @@
     <option name="LAST_COMMIT_MESSAGE" value="update data 0820" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/nCoV2019$qhdg_community.coverage" NAME="qhdg_community Coverage Results" MODIFIED="1597980415333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QHDG" />
-    <SUITE FILE_PATH="coverage/nCoV2019$crawler.coverage" NAME="crawler Coverage Results" MODIFIED="1597980534721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DXY/service" />
-    <SUITE FILE_PATH="coverage/nCoV2019$china_data_mining.coverage" NAME="china_data_mining Coverage Results" MODIFIED="1597980501207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/nCoV2019$qhdg_community.coverage" NAME="qhdg_community Coverage Results" MODIFIED="1598066245595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QHDG" />
+    <SUITE FILE_PATH="coverage/nCoV2019$crawler.coverage" NAME="crawler Coverage Results" MODIFIED="1598066322070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DXY/service" />
+    <SUITE FILE_PATH="coverage/nCoV2019$china_data_mining.coverage" NAME="china_data_mining Coverage Results" MODIFIED="1598066308118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/nCoV2019$patient_tracker.coverage" NAME="patient_tracker Coverage Results" MODIFIED="1597029655891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/patient_tracker" />
   </component>
   <component name="editorHistoryManager">
@@ -834,32 +835,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/china_data_mining.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="147" column="13" lean-forward="true" selection-start-line="147" selection-start-column="13" selection-end-line="147" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DXY/service/crawler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4">
-          <caret line="55" column="62" lean-forward="true" selection-start-line="55" selection-start-column="62" selection-end-line="55" selection-end-column="62" />
-          <folding>
-            <element signature="e#103#132#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/QHDG/qhdg_community.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="152" column="13" lean-forward="true" selection-start-line="152" selection-start-column="13" selection-end-line="152" selection-end-column="13" />
+        <state relative-caret-position="325">
+          <caret line="149" column="77" lean-forward="true" selection-start-line="149" selection-start-column="77" selection-end-line="149" selection-end-column="77" />
           <folding>
             <element signature="e#165#340#0" />
             <element signature="e#604#1089#0" />
             <element signature="e#1159#1305#0" />
             <element signature="e#1378#1527#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/china_data_mining.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="133" column="13" selection-start-line="133" selection-start-column="13" selection-end-line="133" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DXY/service/crawler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="65" column="51" lean-forward="true" selection-start-line="65" selection-start-column="51" selection-end-line="65" selection-end-column="51" />
+          <folding>
+            <element signature="e#103#132#0" expanded="true" />
           </folding>
         </state>
       </provider>
