@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7cdddcb2-3635-49c7-9b23-bd79e8f95991" name="Default Changelist" comment="" />
+    <list default="true" id="7cdddcb2-3635-49c7-9b23-bd79e8f95991" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +15,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/china_data_mining.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="132" column="26" selection-start-line="132" selection-start-column="26" selection-end-line="132" selection-end-column="26" />
+            <state relative-caret-position="360">
+              <caret line="145" column="29" lean-forward="true" selection-start-line="145" selection-start-column="29" selection-end-line="145" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -22,8 +24,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DXY/service/crawler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="61" column="51" lean-forward="true" selection-start-line="61" selection-start-column="51" selection-end-line="61" selection-end-column="51" />
+            <state relative-caret-position="291">
+              <caret line="65" column="51" lean-forward="true" selection-start-line="65" selection-start-column="51" selection-end-line="65" selection-end-column="51" />
               <folding>
                 <element signature="e#103#132#0" expanded="true" />
               </folding>
@@ -34,8 +36,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/patient_tracker/patient_tracker.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2600">
-              <caret line="135" column="12" selection-start-line="135" selection-start-column="12" selection-end-line="135" selection-end-column="12" />
+            <state relative-caret-position="215">
+              <caret line="150" lean-forward="true" selection-start-line="150" selection-end-line="150" />
             </state>
           </provider>
         </entry>
@@ -44,7 +46,7 @@
         <entry file="file://$PROJECT_DIR$/QHDG/qhdg_community.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="265">
-              <caret line="146" column="50" lean-forward="true" selection-start-line="146" selection-start-column="50" selection-end-line="146" selection-end-column="50" />
+              <caret line="146" column="35" selection-start-line="146" selection-start-column="35" selection-end-line="146" selection-end-column="35" />
               <folding>
                 <element signature="e#165#340#0" />
                 <element signature="e#604#1089#0" />
@@ -346,28 +348,9 @@
       <workItem from="1597812151531" duration="163000" />
       <workItem from="1597907091861" duration="164000" />
       <workItem from="1597980365970" duration="249000" />
-      <workItem from="1598066202977" duration="891000" />
-    </task>
-    <task id="LOCAL-00041" summary="update data 0704">
-      <created>1593834770121</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1593834770121</updated>
-    </task>
-    <task id="LOCAL-00042" summary="update data 0705">
-      <created>1593930608280</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1593930608280</updated>
-    </task>
-    <task id="LOCAL-00043" summary="update data 0706">
-      <created>1594025702810</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1594025702810</updated>
+      <workItem from="1598066202977" duration="1123000" />
+      <workItem from="1598155562309" duration="139000" />
+      <workItem from="1598239676685" duration="649000" />
     </task>
     <task id="LOCAL-00044" summary="update data 0707">
       <created>1594118421819</created>
@@ -691,11 +674,32 @@
       <option name="project" value="LOCAL" />
       <updated>1598066354574</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="update data 0822">
+      <created>1598067511490</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1598067511490</updated>
+    </task>
+    <task id="LOCAL-00091" summary="update data 0823">
+      <created>1598155680824</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1598155680825</updated>
+    </task>
+    <task id="LOCAL-00092" summary="update data 0824">
+      <created>1598240277945</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1598240277945</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52088000" />
+    <option name="totallyTimeSpent" value="53108000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -710,13 +714,13 @@
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49893844" visible="true" weight="0.25096524" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49893844" visible="true" weight="0.25740024" />
       <window_info id="Structure" order="1" sideWeight="0.50106156" side_tool="true" weight="0.27919462" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30758807" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3091168" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30758807" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3089431" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3292683" />
@@ -777,8 +781,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update data 0727" />
-    <MESSAGE value="update data 0728" />
     <MESSAGE value="update data 0729" />
     <MESSAGE value="update data 0730" />
     <MESSAGE value="update data 0731" />
@@ -802,12 +804,25 @@
     <MESSAGE value="update data 0819" />
     <MESSAGE value="update data 0820" />
     <MESSAGE value="update data 0822" />
-    <option name="LAST_COMMIT_MESSAGE" value="update data 0822" />
+    <MESSAGE value="update data 0823" />
+    <MESSAGE value="update data 0824" />
+    <option name="LAST_COMMIT_MESSAGE" value="update data 0824" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/DXY/service/crawler.py</url>
+          <line>61</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/nCoV2019$qhdg_community.coverage" NAME="qhdg_community Coverage Results" MODIFIED="1598066245595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QHDG" />
-    <SUITE FILE_PATH="coverage/nCoV2019$crawler.coverage" NAME="crawler Coverage Results" MODIFIED="1598066322070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DXY/service" />
-    <SUITE FILE_PATH="coverage/nCoV2019$china_data_mining.coverage" NAME="china_data_mining Coverage Results" MODIFIED="1598066308118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/nCoV2019$qhdg_community.coverage" NAME="qhdg_community Coverage Results" MODIFIED="1598326152267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QHDG" />
+    <SUITE FILE_PATH="coverage/nCoV2019$crawler.coverage" NAME="crawler Coverage Results" MODIFIED="1598326210163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DXY/service" />
+    <SUITE FILE_PATH="coverage/nCoV2019$china_data_mining.coverage" NAME="china_data_mining Coverage Results" MODIFIED="1598326199353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/nCoV2019$patient_tracker.coverage" NAME="patient_tracker Coverage Results" MODIFIED="1597029655891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/patient_tracker" />
   </component>
   <component name="editorHistoryManager">
@@ -827,17 +842,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/patient_tracker/patient_tracker.py">
+    <entry file="file://$PROJECT_DIR$/china_data_mining.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2600">
-          <caret line="135" column="12" selection-start-line="135" selection-start-column="12" selection-end-line="135" selection-end-column="12" />
+        <state relative-caret-position="360">
+          <caret line="145" column="29" lean-forward="true" selection-start-line="145" selection-start-column="29" selection-end-line="145" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/QHDG/qhdg_community.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="265">
-          <caret line="146" column="50" lean-forward="true" selection-start-line="146" selection-start-column="50" selection-end-line="146" selection-end-column="50" />
+          <caret line="146" column="35" selection-start-line="146" selection-start-column="35" selection-end-line="146" selection-end-column="35" />
           <folding>
             <element signature="e#165#340#0" />
             <element signature="e#604#1089#0" />
@@ -847,17 +862,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/china_data_mining.py">
+    <entry file="file://$PROJECT_DIR$/patient_tracker/patient_tracker.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="132" column="26" selection-start-line="132" selection-start-column="26" selection-end-line="132" selection-end-column="26" />
+        <state relative-caret-position="215">
+          <caret line="150" lean-forward="true" selection-start-line="150" selection-end-line="150" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Home/Python36/Lib/json/decoder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="358" lean-forward="true" selection-start-line="358" selection-end-line="358" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DXY/service/crawler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="61" column="51" lean-forward="true" selection-start-line="61" selection-start-column="51" selection-end-line="61" selection-end-column="51" />
+        <state relative-caret-position="291">
+          <caret line="65" column="51" lean-forward="true" selection-start-line="65" selection-start-column="51" selection-end-line="65" selection-end-column="51" />
           <folding>
             <element signature="e#103#132#0" expanded="true" />
           </folding>
