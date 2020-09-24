@@ -59,7 +59,7 @@ headers = {
     'referer': 'https://news.qq.com/zt2020/page/feiyan.htm?from=timeline&isappinstalled=0'
 }
 
-
+    
 def get_json_obj(res_text, time_str=None):
     json_text = res_text.strip().strip(";").replace('\'', '\"')
     equal_index = json_text.find('=')
